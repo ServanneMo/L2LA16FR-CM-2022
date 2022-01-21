@@ -1,6 +1,17 @@
-<!-- .slide: data-background-image="img/archet19fev2017.png" data-background-size="contain" -->
+<!-- .slide: data-background-image="img/williamBetts.jpeg"  -->
 
-#  Tous profilés ? La construction des identités numériques
+##  Tous profilés ?
+
+<!-- .element: class="grandtitre" -->
+
+
+### La construction des identités numériques
+
+<!-- .element: class="grandtitre" -->
+
+Source : William Betts
+
+<!-- .element: class="source" -->
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

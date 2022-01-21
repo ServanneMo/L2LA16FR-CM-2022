@@ -25,7 +25,11 @@ Cet axe proposera une étude des risques liés au nouveaux modes de production, 
 
 ### L'*infobésité* numérique : les technologies numériques nous ont-ils rendus malades ?
 
->L'information, qui autrefois était aussi rare que le caviar, est désormais surabondante et de consommation courante, autant que les pommes de terre. (David Shenk, Data smog)
+>L'information, qui autrefois était aussi rare que le caviar, est désormais surabondante et de consommation courante, autant que les pommes de terre.
+
+Source : David Shenk, *Data smog*
+
+<!-- .element: class="source" -->
 
 ===
 
@@ -47,12 +51,15 @@ Serions-nous, donc rendus malades par une mauvaise information telle que les tec
 
 ## L'infobésité (l'autre épidémie)
 
->l’abondance d’information peut également être nocive, c’est ce que désigne le terme « infobésité ». Ce mot-valise, né de la contraction d’information et obésité, a été introduit dans la langue française par les Canadiens afin de traduire l’expression anglaise « information overload », soit le sentiment de débordement, de trop-plein d’information. Ce phénomène touche de nombreuses activités : les échanges par mail, les communications via les réseaux sociaux, l’information sur les produits qu’un consommateur s’apprête à acheter, l’information en continu... (Alizé Papp,[
-L’infobésité, une épidémie à l’âge des nouvelles technologies de l’information et de la communication ?](https://www.cairn.info/revue-regards-croises-sur-l-economie-2018-2-page-105.html?contenu=article))
+>l’abondance d’information peut également être nocive, c’est ce que désigne le terme « infobésité ». Ce mot-valise, né de la contraction d’information et obésité, a été introduit dans la langue française par les Canadiens afin de traduire l’expression anglaise « information overload », soit le sentiment de débordement, de trop-plein d’information. Ce phénomène touche de nombreuses activités : les échanges par mail, les communications via les réseaux sociaux, l’information sur les produits qu’un consommateur s’apprête à acheter, l’information en continu...
 
 
 <!-- .element: style="font-size:1.6rem; text-align:justify" -->
 
+Source : Alizé Papp,[
+L’infobésité, une épidémie à l’âge des nouvelles technologies de l’information et de la communication ?](https://www.cairn.info/revue-regards-croises-sur-l-economie-2018-2-page-105.html?contenu=article)
+
+<!-- .element: class="source" -->
 
 ===
 
@@ -67,9 +74,13 @@ Les principaux auteurs sur le sujet sont Caroline Sauvajol-Rialland en France, D
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
->L’infobésité, c’est le fait de recevoir plus d’informations qu’il est possible d’en traiter sans porter atteinte à l’individu ou à son activité. Il n’existe pas de seuil objectif applicable à tout le monde pour le déclenchement de cette pathologie informationnelle, parce que nous ne sommes pas tous égaux du point de vue de nos capacités intellectuelles, en particulier de nos capacités mnésiques. (Caroline Sauvajol-Rialland)
+>L’infobésité, c’est le fait de recevoir plus d’informations qu’il est possible d’en traiter sans porter atteinte à l’individu ou à son activité. Il n’existe pas de seuil objectif applicable à tout le monde pour le déclenchement de cette pathologie informationnelle, parce que nous ne sommes pas tous égaux du point de vue de nos capacités intellectuelles, en particulier de nos capacités mnésiques.
 
 <!-- .element: style="font-size:1.6rem; text-align:justify" -->
+
+Source : Caroline Sauvajol-Rialland
+
+<!-- .element: class="source" -->
 
 ===
 La production de données s’est démesurément amplifiée avec le passage au numérique. La quantité d’informations publiées sous ce format double tous les quatre ans. D’après Caroline Sauvajol-Rialland, nous avons produit plus d’informations ces 30 dernières années qu’en 5 000 ans d’histoire.
@@ -77,45 +88,14 @@ La production de données s’est démesurément amplifiée avec le passage au n
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-### Le monde insaisissable des "big data"
-* "big" : un explosion quantitative
-* "data" : des informations sur-mesure
+>L’infobésité est une notion subjective qui décrit, pour un individu, le sentiment d’être submergé par la connaissance potentielle, par le flux ininterrompu d’informations qu’il ne parvient ni à absorber ni à trier. L’infobésité sourd d’une incapacité à faire refluer le trop plein, à maîtriser son environnement documentaire.
+
+Source : Marie-Anne Chabin, "Infobésité et big data : ne pas confondre !" (2014)
+
+<!-- .element: class="source" -->
 
 ===
 
-Je commencerai par une première définition, que je vous encourage à retenir, mais surtout à bien comprendre : le *big data*. Nul besoin d'être traducteur de Shakespeare pour comprendre qu'il s'agit ici de désigner la masse des données produites et diffusées chaque jour en ligne. Souvent citée, la notion de *big data* demeure cependant mal maîtrisée dès lors qu'on demande une définition claire, notamment parce que les propres termes qui la composent sont faussement simples.
-
-"Big", tout d'abord, est un adjectif quantitatif, il vient désigner une quantité de contenus, de données et donc d'information, particulièrement grande, grosse ou conséquente. Mais que veut dire "grand ou conséquent" aujourd'hui ? À partir de quand devient-on "Big"? Ce qui caractérise ce "big data", c'est que sa masse est tellement importante, et qui plus est exponentielle, qu'elle n'est désormais plus appréhendable par l'esprit humain. Elle dépasse complètement les capacités humaines d'analyse (et d'ailleurs même celles des outils informatiques classiques, c'est pour cette raison d'ailleurs que l'on va avoir recours à des outils algorithmiques, comme on le verra la semaine prochaine).
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-### Qu'est-ce qu'une donnée numérique ?
-* Données vs Information
-* La définition et la collecte d'une donnée sont arbitraires
-* Une (bonne) information doit :
-  - Avoir un intérêt pour le public (cf. loi des proximités)
-  - Être factuelle (information n’est pas opinion)
-  - Reposer sur des sources traçables, identifiables, vérifiables
-
-===
-
-Une seconde difficulté tient dans le terme de "data", que l'on traduit en français par "donnée", et qui est en quelque sorte un faux-ami, puisqu'il nous laisse croire en une certaine objectivité qui serait propre à ladite donnée.
-
-En effet, dans sa définition la plus générale, une donnée désigne un fait ou un élément "brut", qui n'a pas encore été traité ou mise en contexte - c'est ce qui la distingue d'ailleurs de l'information.
-
-Une information sera une donnée interprétée et médiatisée, recontextualisée.
-
-Un exemple très simple : si je suis météorologue, je vais m'appuyer sur un ensemble de données telles que la température, la puissance et le sens du vent, la pression atmosphérique. les précipitations, etc. Tous ces éléments peuvent être considérés comme des données. Si je décide de faire un bulletin météo, je vais alors mettre ces données en relation pour tenter d'en tirer une synthèse voire une interprétation. Afin de diffuser ma synthèse au public, je vais l'organiser avec des visualisations, une narration. Mes données deviennent alors une information.
-
-Si la distinction entre donnée brute et information interprétée et contextualisée est donc importante, il faut tout de même se méfier d'une tendance qui attribue à la donnée une objectivité pure. La donnée, justement, n'est pas toujours "donnée" : elle est construite, arbitraire. Pour savoir que je dois connaître la pression atmosphérique afin de faire un bon bulletin météo, cela exige des connaissances préalables. Une donnée s'appuie donc toujours sur un choix, une connaissance en amont, qui exige que l'on choisisse d'analyser tel aspect du réel plutôt qu'un autre.
-
-Si la donnée n'est donc pas toujours objective, c'est encore moins le cas d'une information (dans le sens d'une nouvelle) transmise par un journaliste, un media ou une personne.
-
-En journalisme, Une information digne de ce nom doit obéir à un trois impératifs fondamentaux :
-- Avoir un intérêt pour le public (cf. loi des proximités)
-- Être factuelle (information n’est pas opinion)
-- Reposer sur des sources traçables, identifiables, vérifiables
 
 L'émergence du Big data va de paire avec un comportement de surconsommation, qui a fait l'objet d'une qualification sous le terme "infobésité".
 
@@ -173,9 +153,18 @@ Source: [Le baromètre du numérique (ARCEP) 2018](https://www.arcep.fr/cartes-e
 
 ===
 
+Je vais passer en revue avec vous quelques-uns de ces chiffres, en repartant de l'année 2018, jusqu'à 2020 (les derniers chiffres parus, pour une année très particulière, celle de la pandémie). Je ne reviendrai pas sur tous les phénomènes, mais sur quelques-uns principalement, qui me semblent assez significatifs.
+
 Dans ses chiffres de 2018, L'arcep a d'abord montré une Chute drastique de la TV :
 - de moins en moins regardée, surtout par une tranche d'âge
 - relocalisation sur des appareils connectés : streaming
+
+Ce terme de relocalisation est essentiel : en règle générale, un *media* succède à un autre en le remédiant, c'est-à-dire en emportant avec lui certains de ces contenus et de ces usages.
+
+Cette chute de la TV ne signifie pas une perte de ses contenus, mais plutôt un déplacement, une relocalisation, donc.
+Avec évidemment des changements dans les habitudes de consommation : on est de plus en plus dans une consommation à la demande : le spectateur regarde quand il veut, et n'est plus soumis à la temporalité des *media*. Ces derniers l'ont d'ailleurs bien compris, on proposant des services de streaming qui leur permettent de toucher un plus large public et de s'adapter à des publics plus jeunes, notamment.
+
+Dans le cas des SÉries TV, par exemple, il y a de plus en plus cette habitude qui consiste à "binge-watcher", à regarder tous les épisodes d'un seul coup. Les plateformes de type Netflix se sont ainsi définitivement affranchies du modèle feuilletonesque, pour publier d'un seul tenant TOUTS les épisodes. Ce sont les modèles économiques qui changent ainsi complètement.   
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 <!-- .slide: data-background-image="img/stats2018_smartphone.png" data-background-size="contain" -->
@@ -187,10 +176,13 @@ Source: [Le baromètre du numérique (ARCEP) 2018](https://www.arcep.fr/cartes-e
 
 ===
 
+En 2018 toujours...
+
 Le smartphone est devenu l'équipement de référence, qui a tendance à remplacer les autres appareils.
 
 En effet, le taux d'équipement des Français en terminaux informatique stagne. Pour les ordinateurs de bureau et les tablettes, il est même en baisse. Ainsi, 78% de la population possède un ordinateur (-3 points sur un an), 41% dispose d'une tablette (-3) et 30% profite de plusieurs ordinateurs à domicile (-3). Une situation qui révèle à la fois que les besoins d'équipement ont atteint un pallier, et que les usages se concentrent de plus en plus vers un autre terminal : le smartphone.
 
+Ce phénomène de concentration sur un seul appareil avait déjà commencé avec l'ordinateur, mais le téléphone, objet personnel (vs) ordi familial ou de travail, fait exploser la pratique. Il a été théorisé par Henry Jenkins, cultural studies, sous le terme de culture de la convergence.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -252,6 +244,9 @@ Source: [Le baromètre du numérique (ARCEP) 2019](https://www.arcep.fr/cartes-e
 
 
 ===
+
+En 2019 :
+
 Des comportements limites et des pb dont sont plus ou moins conscients les usagers, d'ailleurs.
 Confirmation dans les stats de l'an dernier, qui montre que sur ces appareils jouant le rôle de "super media" où convergent plein de medias, on a en fait une uniformisation des pratiques.
 
@@ -314,7 +309,64 @@ D'abord, revenir à du qualitatif !
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+### La consommation numérique remodelée par le covid
+
+
+====
+
+Il est encore un peu tôt pour tirer le bilan d'une crise dont nous ne sommes pas sortis.
+Mais il est certain que l'usage forcé et massif des technos numériques en temps de confinement ou de télétravail et cours à distance, a eu un effet d'accélérateur sur certaines tendances liées à la conso numérique.
+
+Je vais passer en revue avec vous quelques chiffres tirés de la dernière étude ARCEP, qui concerne donc 2020 (les chiffres 2021 sortiront dans quelques mois seulement.).
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/2020_sanitaire.png" data-background-size="contain" -->
+
+Source: [Le baromètre du numérique (ARCEP) 2020]
+
+<!-- .element: class="source" -->
+
+===
+chiffres généraux sanitaire
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/2020_numeriqueJeune.png" data-background-size="contain" -->
+
+Source: [Le baromètre du numérique (ARCEP) 2020]
+
+<!-- .element: class="source" -->
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/2020_vieprive_pro.png" data-background-size="contain" -->
+
+Source: [Le baromètre du numérique (ARCEP) 2020]
+
+<!-- .element: class="source" -->
+
+
+===
+
+Égalité vie pro- vie privée
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/2020_ecologie.png" data-background-size="contain" -->
+
+
+Source: [Le baromètre du numérique (ARCEP) 2020]
+
+<!-- .element: class="source" -->
+
+
+===
+
+La prise de conscience écologique
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 ## Conclusion
-L'infobésité désigne à l'origine une dérive des média - dont les usagers sont devenus de friands consommateurs, souvent mal avisés : trop d'information, de mauvaise qualité, répétitive. Avec le développement du web et surtout des médias sociaux, cette surconsommation n'a fait que s'aggraver, d'autant plus que nous sommes devenus nous-mêmes des producteurs de données, destinées à alimenter un *big data* que l'on ne sait pas encore interpréter correctement. A quoi ressemble le monde dans cette ère d'information de masse ? Comment le représenter ? Face à cette déferlante d'information, les écritures journalistiques ont commencé à se réinventer. Du mook à la data-visualisation, elles "zooment" ou au contraire "dézooment" sur le monde, entre micro-analyse et macro-analyse, subjectivité assumée ou tentative d'objectivation du réel.
+L'infobésité désigne à l'origine une dérive des média - dont les usagers sont devenus de friands consommateurs, souvent mal avisés : trop d'information, de mauvaise qualité, répétitive. Un examen plus approfondi nous permet de mieux comprendre ce phénomène, étroitement lié à une convergence médiatique (Jenkins), ainsi qu'à une évolution de nos pratiques de consommation des produits culturels et des informations -- des pratiques parfois bonnes, parfois mauvaises. Le risque du concept d'infobésité est de réduire le consommateur à une entité passive ("le temps de cerveau humain disponible", selon la formule du PDG de TF1 Patrick Le Lay en 2004). Or la réalité est plus complexe: dans un monde où la consommation numérique est inévitable, de nombreux effort sont et doivent être fournis pour garantir à tous une égalité face à l'offre numérique : l'enjeu est également de permettre à tous développer de bonnes pratiques.
 
 <!-- .element: style="font-size:1.6rem " -->

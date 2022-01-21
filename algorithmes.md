@@ -1,27 +1,29 @@
-<!-- .slide: data-background-image="img/Internet-monde.jpg" data-background-size="contain" -->
+<!-- .slide: data-background-image="img/williamBetts.jpeg" data-background-size="contain" -->
 
-# Tous calculés ? Comprendre l’influence des algorithmes
+## Tous calculés ?
+
+<!-- .element: class="grandtitre" -->
+
+### Comprendre l’influence des algorithmes
+
+<!-- .element: class="grandtitre" -->
+
+Source : William Betts
+
+<!-- .element: class="source" -->
 
 ===
 Nous allons poursuivre notre portrait du récepteur moderne : l'internaute ou usager des medias numériques.
 
-De la problématique de l'infobésité à la construction de systèmes de représentation inclusifs, immersifs et participatifs tels que les univers transmedia, les technologies contemporaines ont tout du _pharmakon_ décrit il y a plus de 2000 ans par Platon : un poison et un remède - ou vice-versa. Les nouveaux médias numériques fournissent aussi bien toutes les éléments d'un désastre annoncé que l'espoir d'un monde meilleur, plus transparent et plus démocratique. Avec d'un côté un monde où l'information, noyée dans sa propre masse, ne pourrait plus se démarquer qu'à coup de buzz, comme les FakeNews en fournissent régulièrement de beaux exemples - non sans entraîner de véritables menaces pour nos démocraties. Et simultanément, de l'autre côté, une revalorisation de principes éthiques, déontologiques, une construction de l'information qui se veut plus collective, participative et donc démocratique.
+L'angle que j'ai choisi d'aborder avec vous aujourd'hui, est celui de l'influence des algorithmes. Je vais poser quelques éléments de définition tout à l'heure, mais je voudrais d'abord justifier ma démarche : pourquoi est-ce si important de comprendre le fonctionnement d'un algorithme ?
 
-Nous avons parcouru un chemin assez long depuis Platon, Aristote et les premiers débats sur la mimesis, soit l'imitation du réel, jusqu'aux médiations numériques contemporaines. Ce parcours nous a conduit à envisager les problèmes de la représentation sous plusieurs coutures : ontologiques, éthiques, esthétique et surtout médiatiques. Avec un enseignement majeur à tirer : les débats autour de ce concept fluctuant, complexe, voire parfois clivant, en disent probablement bien plus long sur les valeurs et le fonctionnement d'une société, que les définitions même du concept - des définitions rarement satisfaisantes, par ailleurs systématiquement discutées aussitôt établies...
-
-En tant que chercheurs, sémiologues, ou spécialistes de la communication, tout l'intérêt de questionner la représentation réside d'abord dans l'étude de la façon dont un groupe, une société, va débattre autour de ce concept. C'est là que se logent en effet les plus importants effets de sens.
-
-IL faut donc dépasser le technodéterminisme/technophobie, tout comme la technophilie : dépasser les jugements de valeur, pour bien comprendre les technologies par lesquelles passent nos représentations, car c'est par la connaissance des systèmes médiatiques que nous pouvons comprendre les biais de toute représentation, et mieux contrebalancer ces biais pour être capable de juger correctement une information qui nous est donnée.
+Tout simplement parce que ce sont les algo qui structurent le web, qui en sont les "architectes".
 
 
-Ainsi, l'objectif n'est plus tant de dire quelle représentation est "meilleure" que l'autre, mais de s'élever à un niveau méta-réflexif pour comprendre le processus de construction des systèmes de représentation qui, aujourd'hui, font consensus - ou pas, d'ailleurs. Posons-nous la question : au nom de quoi une représentation devrait-elle être "meilleure" qu'une autre ? Est-ce parce qu'elle sera plus réaliste ? Non, car on a vu que les critères du réalisme ne cessaient de toute manière d'évoluer en même temps que les media eux-mêmes, depuis l'invention de la perspective, jusqu'à la 3D ou la réalité virtuelle. Demain, encore d'autres technologies viendront d'ailleurs réformer notre appréciation de ce que l'on appelle le réel, et donc les critères de ressemblance, de vraisemblance, de réalisme ou d'authenticité.
+Objectif : vous faire comprendre les enjeux d'une bonne indexation et le fonctionnement de base des principales familles d'algo, puisqu'il y a fort à parier que vous serez confrontés un jour à ces questions dans le cadre de votre carrière, où vous serez par exemple amenés à décrire les contenus que vous publiez, à optimiser l'indexation d'un site web-vitrine. Une petite intro théorique ne fait donc pas de mal, ne serait-ce que pour savoir, globalement, ce dont on parle.
 
 
-Rappelons-le : Médier le réel, c'est le construire, et c'est le construire en le modélisant, en le rendant appréhendable, compréhensible - au sens étymologique du terme, "prendre avec soi". Représenter le monde, c'est chercher à le prendre avec soi, à s'en saisir, afin de mieux y habiter. Or comment représenter, comment comprendre et donc comment habiter le monde aujourd'hui ?
-
-Cette question résonne tout particulièrement dès lors que l'on s'intéresse à un outil numérique devenu incontournable : le web. Pour utiliser une métaphore faisant le lien avec une forme esthétique dont nous avons beaucoup parlé dans ces dernières semaines, le web est aujourd'hui une fenêtre sur notre monde. Mais il n'est pas seulement cela : il a tendance à le structurer largement, en influençant notre accès à l'information et par conséquent nos comportements. Du coup, la question à se poser est la suivante : comment le web est-il lui-même formé et lui-même structuré ? Comment, pour compléter la problématique, est construit, est structuré le media qui constitue notre fenêtre sur le monde contemporain et qui donc participe à structurer notre monde ?
-
-Vous l'aurez compris, aujourd'hui, nous allons parler d'organisation algorithmique. Pas de panique, l'objectif ici sera de comprendre la philosophie des algorithmes - ce n'est pas un cours de programmation. Après cette intro générale, un peu longue mais que je tenais à faire pour bien boucler le programme, je voudrais introduire plus précisément la question qui va nous occuper aujourd'hui.
+L'organisation des différentes données sur le web : pourquoi, lorsque l'on tape un mot sur un moteur de recherche, c'est tel résultat qui tombe en premier, et dans quelle mesure ce résultat sera le seul que je vais consulter et qui va m'influencer par la suite.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 <!-- .slide: data-background-image="img/stats3.png" data-background-size="contain" -->
@@ -33,7 +35,7 @@ Rappel d'un problème que l'on a vu il y a 2 semaines : l'hégémonie des moteur
 Pourquoi dire que nous utilisons mal les outils ? Arrêtons nous d'abord sur les problèmes posés par cette manière de chercher...
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/google.png" data-background-size="contain" -->
+<!-- .slide: data-background-image="img/" data-background-size="contain" -->
 <!-- .slide: class="hover"-->
 
 ### Structuration du web, structuration du réel ?
@@ -42,7 +44,22 @@ Pourquoi dire que nous utilisons mal les outils ? Arrêtons nous d'abord sur les
 
 ===
 
-J'en cite ici deux exemples : le fantastique outil de Google Maps, qui nous permet de ne plus jamais nous perdre, a agrégé une série d'informations qui ne relèvent plus seulement de la simple cartographie :
+Le web, c'est un amas de données, sans cesse en train de s'augmenter de manière exponentielle, des contenus en tous genre en quantités astronomiques, ce que l'on appelle le big data, tellement gigantesque qu'il n'est pas appréhendable par l'esprit humain.
+
+Comme il n'est pas appréhendable, il faut l'organiser. Et comme nous ne sommes pas capable de l'organiser nous-mêmes directement, nous laissons les algorithmes le faire pour nous.
+
+Sauf que nous n'avons pas toujours bien conscience des règles de cette organisation.
+
+Il ne s'agit pas de dire que les algorithmes sont mauvais, il s'agit de dire que ceux-ci doivent être transparents, doivent exposer les règles qui les régissent, afin que nous sachions exactement quels sont les biais auxquels nous sommes soumis lorsque nous réalisons des recherches en ligne.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/streetview.png" data-background-size="contain" -->
+
+
+===
+
+J'en cite ici un exemple : le fantastique outil de Google Maps, qui nous permet de ne plus jamais nous perdre, a agrégé une série d'informations qui ne relèvent plus seulement de la simple cartographie :
   - des adresses de magasins
   - des adresses de restaurants
 Toutes ces adresses font l'objet d'une évaluation et de commentaire. On peut connaître aussi l'achalandage en fonction des heures. Tant et si bien que lorsque je décide, par exemple, de me promener dans le quartier de la Sorbonne, je vais avoir en même temps une série de suggestions de cafés où me rendre : c'est une sorte de publicité - un autre terme est souvent avancé dans le domaine des économies numérique - celui de l'influence...
@@ -51,7 +68,23 @@ AUtre exemple, encore plus simple et plus parlant probablement : celui des sites
 
 Tout cela pour dire que si la question de la structuration du web est aussi problématique, c'est parce qu'elle structure en fait le réel. Elle a un impact effectif sur notre monde et notre manière de l'habiter.
 
-Ce qui est intéressant, c'est de constater combien ces façon de faire, désormais courantes avec nos usages numériques, nous paraîtraient totalement inconcevables dans d'autres sphères d'action.
+Ce qui est intéressant, c'est de constater combien ces façons de faire, désormais courantes avec nos usages numériques, nous paraîtraient totalement inconcevables dans d'autres sphères d'action.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/" data-background-size="contain" -->
+
+## Problématique
+
+Comment le web est-il formé, structuré, organisé ? Comment se structure le media qui constitue notre fenêtre sur le monde contemporain et qui donc participe à structurer notre monde ?
+
+===
+
+Je voudrais commencer par une petite digression épistémologique : ce cours est un cours en théorie des media. J'ai finalement peu défini, je me rends compte, ce qu'il faut entendre par media. Un media, au sens général du terme, c'est ce qui est "entre" les choses. Les mass media (la presse, la TV, les réseaux sociaux), médient des informations: ils se placent entre les événements, les faits, et nous. Ils fabriquent ainsi l'actualité. Mais les livres, le cinéma, la radio sont eux aussi des media: ils proposent des formes d'enregistrement, de représentation du monde et du réel, qui se trouvent de fait médiés. Notre accès au réel, au monde, est ainsi dans 90% des cas médié : les choses du monde me parviennent par le biais d'un livre, d'un journal, d'une écriture... mais aussi d'une voix, par exemple.
+
+De fait, Médier le réel, c'est le construire, et c'est le construire en le modélisant, en le rendant appréhendable, compréhensible - au sens étymologique du terme, "prendre avec soi". Représenter le monde, c'est chercher à le prendre avec soi, à s'en saisir, afin de mieux y habiter. Or comment représenter, comment comprendre et donc comment habiter le monde aujourd'hui ?
+
+Cette question résonne tout particulièrement dès lors que l'on s'intéresse à un outil numérique devenu incontournable : le web. Pour utiliser une métaphore propre à la représentation, le web est aujourd'hui une fenêtre sur notre monde. Mais il n'est pas seulement cela : il a tendance à le structurer largement, en influençant notre accès à l'information et par conséquent nos comportements. Du coup, la question à se poser est la suivante : comment le web est-il lui-même formé et lui-même structuré ? Comment, pour compléter la problématique, est construit, est structuré le media qui constitue notre fenêtre sur le monde contemporain et qui donc participe à structurer notre monde ?
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 <!-- .slide: data-background-image="img/bookshop.jpg" data-background-size="contain" -->
@@ -59,11 +92,29 @@ Ce qui est intéressant, c'est de constater combien ces façon de faire, désorm
 
 ===
 
-Comparez un peu vos pratiques avec, par exemple, celle du flânage en libraire, ou dans un magasin de vêtement. Vous arrêtez-vous toujours seulement sur ce qui est présenté en vitrine ? Vous contentez-vous seulement de choisir les livres mis en évidences sur les présentoirs ? Ce goût que nous avons pour le flanage, la fouille dans les rayons d'une librairie, d'une boutique quelconque, nous le perdons la plupart du temps lors de nos recherches sur Google. Peu d'utilisateurs vont explorer les 100aines de résultats...
+Comparez un peu vos pratiques avec, par exemple, celle du flânage en libraire, ou dans un magasin de vêtements. Vous arrêtez-vous toujours seulement sur ce qui est présenté en vitrine ? Vous contentez-vous seulement de choisir les livres mis en évidences sur les présentoirs ? Ce goût que nous avons pour le flanage, la fouille dans les rayons d'une librairie, d'une boutique quelconque, nous le perdons la plupart du temps lors de nos recherches sur Google. Peu d'utilisateurs vont explorer les 100aines de résultats...
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/amazon1.png" data-background-size="contain" -->
+
+
+===
+
+Chez Amazon aussi j'ai un "tri".
+
+Possibilité d'une personnalisation : par exemple, des filtres thématiques.
+Avec même l'illusion que le tri est fait par mes semblables, les autres internautes.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/amazon2.png" data-background-size="contain" -->
+
+
+===
 Le problème qui se pose ici est notamment celui de l'autorité, de la légitimité. CHez mon libraire, même si je me contente de regarder les livres sélectionnés sur un présentoir, je peux identifier la personne qui est à l'origine de ce tri, de cette sélection. C'est d'ailleurs pour cela que nous finissons par avoir des "libraires" préférés : on sait que nous pouvons faire confiance en une personne qui aura du goût, parfois le même que le nôtre mais pas toujours. On se fie au jugement d'un professionnel du livre. C'est aussi de cette façon que l'on va choisir notre journal ou notre magazine préféré : nous identifions un groupe de journalistes, avec lesquels nous partageons des valeurs, notamment.
 
-Le problème d'un moteur de recherche comme Google, c'est qu'il nous propose lui aussi un tri, mais sans que l'on sache très bien 1) qui se cache derrière ce tri 2) sur quels critères ce tri s'est opéré.
+Le problème d'un moteur de recherche comme celui d'Amazon, équivalent de mon libraire en ligne, c'est qu'il nous propose également un tri, mais sans que l'on sache très bien 1) qui se cache derrière ce tri 2) sur quels critères ce tri s'est opéré.
 
 Cette question résonne de fait avec une problématique que nous avons étudiée il y a quelques semaines : celle la crise de la vérité. On a vu en effet que cette crise résidait d'abord dans la remise en cause profonde d'un modèle de légitimation qui ne fonctionne plus comme avant. Mais sur le moteur de recherche Google, par exemple, qui légitimise les contenus ?
 
@@ -74,47 +125,63 @@ Sans aller jusqu'à l'échelle des GAFAM, ce problème de la transparence du cod
 - la CNIL, dont il a été question la semaine dernière
 - la Quadrature du net
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/streetview.png" data-background-size="contain" -->
-<!-- .slide: class="hover"-->
 
-### Comprendre la structuration du web : un enjeu ontologique et politique
-* Toute médiation joue un rôle structurant et déterminant dans la construction du réel
-* Nous construisons des outils pour calculer, structurer, organiser le web...
-* Ces calculateurs, en retour, nous construisent à leur tour...
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+### Le web à l'heure du "big data"
+* "big" : un explosion quantitative
+* "data" : des informations sur-mesure
 
 ===
-En résumé, comprendre le web est un enjeu ontologique et politique.
-Je me répète : Le Réel est toujours médié - il n'est donc pas question de dire ici que le numérique est une médiation pire que les autres... Mais puisque toute médiation cherche par nature à se faire oublier, à se rendre transparente, on oublie qu'elles ont un rôle structurant et même déterminant sur le réel. C'est la fonction performative des médias et des représentations.
-En raison même de cette tendance à la superposition entre le monde tel qu'il est représenté et ses conceptions, il nous faut au moins être capable de comprendre comment la représentation du monde contemporain s'effectue.
+
+Je commencerai par une première définition, que je vous encourage à retenir, mais surtout à bien comprendre : le *big data*. Nul besoin d'être traducteur de Shakespeare pour comprendre qu'il s'agit ici de désigner la masse des données produites et diffusées chaque jour en ligne. Souvent citée, la notion de *big data* demeure cependant mal maîtrisée dès lors qu'on demande une définition claire, notamment parce que les propres termes qui la composent sont faussement simples.
+
+"Big", tout d'abord, est un adjectif quantitatif, il vient désigner une quantité de contenus, de données et donc d'information, particulièrement grande, grosse ou conséquente. Mais que veut dire "grand ou conséquent" aujourd'hui ? À partir de quand devient-on "Big"? Ce qui caractérise ce "big data", c'est que sa masse est tellement importante, et qui plus est exponentielle, qu'elle n'est désormais plus appréhendable par l'esprit humain. Elle dépasse complètement les capacités humaines d'analyse (et d'ailleurs même celles des outils informatiques classiques, c'est pour cette raison d'ailleurs que l'on va avoir recours à des outils algorithmiques, comme on le verra la semaine prochaine).
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/photolit.png" data-background-size="contain" -->
-<!-- .slide: class="hover"-->
 
-### Maîtrise de la déprise
-* Bien structurer les contenus (en vue de leur organisation / appropriation) = métadonnées
-* Comprendre les logiques de recherche / indexation = algorithmes
+### Données vs Information
+* La définition et la collecte d'une donnée sont arbitraires
+* Une (bonne) information doit :
+  - Avoir un intérêt pour le public (cf. loi des proximités)
+  - Être factuelle (information n’est pas opinion)
+  - Reposer sur des sources traçables, identifiables, vérifiables
 
 ===
-Alors évidemment, un premier comportement pourrait nous pousser vers un rejet total des nouvelles technos... Mais bon, nous n'avons pas tout à fait le choix : on voit bien aujourd'hui qu'elles sont très utiles. Et surtout, la technophobie ne semble pas être une solution sage au long terme.
 
-L'enjeu sera plutôt de maîtriser la déprise imposée par certains outils. La déprise, c'est le fait que nécessairement le fonctionnement de certains outils nous échappe. La maîtrise de cette déprise, c'est de trouver de quoi compenser cette déprise. La première chose : c'est l'éducation ! La connaissance des outils que l'on utilise.s
+Une seconde difficulté tient dans le terme de "data", que l'on traduit en français par "donnée", et qui est en quelque sorte un faux-ami, puisqu'il nous laisse croire en une certaine objectivité qui serait propre à ladite donnée.
 
-La fameuse littératie numérique : non pas savoir coder, mais comprendre les présupposés épistémologiques qui guident la construction des outils que nous utilisons chaque jour.
+En effet, dans sa définition la plus générale, une donnée désigne un fait ou un élément "brut", qui n'a pas encore été traité ou mise en contexte - c'est ce qui la distingue d'ailleurs de l'information.
 
-Première leçon, sorte de pré-requis à l'algorithme, c'est la métadonnée.
+Une information sera une donnée interprétée et médiatisée, recontextualisée.
+
+Un exemple très simple : si je suis météorologue, je vais m'appuyer sur un ensemble de données telles que la température, la puissance et le sens du vent, la pression atmosphérique. les précipitations, etc. Tous ces éléments peuvent être considérés comme des données. Si je décide de faire un bulletin météo, je vais alors mettre ces données en relation pour tenter d'en tirer une synthèse voire une interprétation. Afin de diffuser ma synthèse au public, je vais l'organiser avec des visualisations, une narration. Mes données deviennent alors une information.
+
+Si la distinction entre donnée brute et information interprétée et contextualisée est donc importante, il faut tout de même se méfier d'une tendance qui attribue à la donnée une objectivité pure. La donnée, justement, n'est pas toujours "donnée" : elle est construite, arbitraire. Pour savoir que je dois connaître la pression atmosphérique afin de faire un bon bulletin météo, cela exige des connaissances préalables. Une donnée s'appuie donc toujours sur un choix, une connaissance en amont, qui exige que l'on choisisse d'analyser tel aspect du réel plutôt qu'un autre.
+
+Si la donnée n'est donc pas toujours objective, c'est encore moins le cas d'une information (dans le sens d'une nouvelle) transmise par un journaliste, un media ou une personne.
+
+En journalisme, Une information digne de ce nom doit obéir à un trois impératifs fondamentaux :
+- Avoir un intérêt pour le public (cf. loi des proximités)
+- Être factuelle (information n’est pas opinion)
+- Reposer sur des sources traçables, identifiables, vérifiables
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/metadonneePage.png" data-background-size="contain" -->
+<!-- .slide: data-background-image="img/" data-background-size="contain" -->
 <!-- .slide: class="hover"-->
 
 
 ### Données numériques
 * Donnée : représentation d'une information dans un programme informatique
 * *Big data* : explosion quantitative de la production / stockage des données
-* Données personnelles : "toute information relative à une personne physique identifiée ou qui peut être identifiée, directement ou indirectement, par référence à un numéro d'identification ou à un ou plusieurs éléments qui lui sont propres"
+* Données personnelles :
+
+>"toute information relative à une personne physique identifiée ou qui peut être identifiée, directement ou indirectement, par référence à un numéro d'identification ou à un ou plusieurs éléments qui lui sont propres" (définition légale)
+
+<!-- .element: style="font-size:1.7rem; text-align:justify" -->
+
 
 ===
 On a vu la semaine passée la différence entre une donnée et une information : Dans sa définition la plus générale, une donnée désigne un fait ou un élément "brut", qui n'a pas encore été traité ou mise en contexte - qui n'est donc pas encore transformée en information.
@@ -130,7 +197,7 @@ Une donnée à caractère personnel ou DCP (couramment « données personnelles 
 On voit donc les problèmes poindre : sur le web, aujourd'hui, les contenus et les données sont publiés et circulent en masse. Il y a trop de données, potentiellement d'Ailleurs des données personnelles, dont on ne maîtrise plus les flux et dans lesquelles on peut se perdre.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/metadonnee2.png" data-background-size="contain" -->
+<!-- .slide: data-background-image="img/" data-background-size="contain" -->
 <!-- .slide: class="hover"-->
 
 ### Indexation et métadonnées
@@ -149,17 +216,18 @@ Au-delà de cette seule description, elles facilitent la recherche et le partage
 <!-- .slide: data-background-image="img/metadonneePage.png" data-background-size="contain" -->
 <!-- .slide: class="hover"-->
 
-* Métadonnées embarquées (balise d'une page web)
 
 ===
+
+* Métadonnées embarquées (balise d'une page web)
+
 
 Dans un contexte numérique, les métadonnées sont présentes soit de manière embarquée : elles font partie du document, en étant incluses par exemple dans un fichier informatique : photo, logiciel, document, ….
 
 Il faut envisager le web comme une sorte de grosse bibliothèque : comment retrouver des contenus ? Tt simplement grâce à leur indexation. Il est important, ainsi, de façonner des contenus qui soient toujours bien indexés. Cette indexation permet aussi d'assurer la pérennité des contenus.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/metadonneePage.png" data-background-size="contain" -->
-<!-- .slide: class="hover"-->
+<!-- .slide: data-background-image="img/" data-background-size="contain" -->
 
 ### Les types de métadonnées :
 * métadonnées de gestion permettant d’accéder au document (auteur, titre, date de création, date de modification, langue…) ;
@@ -167,7 +235,7 @@ Il faut envisager le web comme une sorte de grosse bibliothèque : comment retro
 * métadonnées de préservation, pour garantir la pérennité de l’accès et de la compréhension du document (droits, format du fichier, source, résolution, relation, couverture…).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/tweetmetadata.png" data-background-size="contain" -->
+<!-- .slide: data-background-image="img/" data-background-size="contain" -->
 <!-- .slide: class="hover"-->
 
 ## Données et métadonnées : une gestion qui nous échappe
@@ -185,7 +253,9 @@ Sachant que ces métadonnées d'indexation sont, parfois, créées à notre insu
 Vous serez surpris par tout ce que vos tweets peuvent révéler de vous et de vos habitudes
 Une analyse de l’activité des comptes Twitter
 
-Comme tous les réseaux sociaux, Twitter sait beaucoup de choses sur vous, grâce aux métadonnées. En effet, pour un message de 140 caractères, vous aurez un paquet de métadonnées, plus de 20 fois la taille du contenu initial que vous avez saisi ! Et vous savez quoi ? Presque toutes les métadonnées sont accessibles par l’API ouverte de Twitter.
+Comme tous les réseaux sociaux, Twitter sait beaucoup de choses sur vous, grâce aux métadonnées. En effet, pour un message de 140 caractères, vous aurez plus de 30 métadonnées, plus de 20 fois la taille du contenu initial que vous avez saisi ! Le texte d’un tweet représente moins de 10% de l’information.
+
+Et vous savez quoi ? Presque toutes les métadonnées sont accessibles par l’API ouverte de Twitter.
 Voici quelques exemples qui peuvent être exploités par n’importe qui (pas seulement les gouvernements) pour pister quelqu’un et en déduire son empreinte numérique :
 
 Fuseau horaire et langue choisie pour l’interface de twitter
@@ -196,14 +266,14 @@ Hashtags les plus utilisés, utilisateurs les plus retweetés, etc.
 Activité quotidienne/hebdomadaire
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/algo.jpeg" data-background-size="contain" -->
+<!-- .slide: data-background-image="img/" data-background-size="contain" -->
 <!-- .slide: class="hover" -->
 
 ## L'organisation algorithmique
 * Dominique Cardon :
   * *La démocratie Internet* (2010)
-  * "À quoi rêve Google"
-  * *À quoi rêvent les algorithmes ?*
+  * "Dans l'esprit du PageRank. Une enquête sur l'algorithme de Google" (2013)
+  * *À quoi rêvent les algorithmes ?* (2015)
 
 <!-- .element: style="font-size:1.7rem; text-align:justify" -->
 
@@ -211,8 +281,7 @@ Activité quotidienne/hebdomadaire
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/recette.JPG" data-background-size="contain" -->
-<!-- .slide: class="hover" -->
+
 
 ### Qu'est-ce qu'un algorithme ?
 Un algorithme désigne une suite d’instructions qui, une fois exécutée correctement, conduit à un résultat donné...
@@ -221,11 +290,17 @@ Une recette de cuisine est, en un sens, un algorithme. En informatique, les algo
 
 ===
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/recette.JPG" data-background-size="contain" -->
+
+
+===
+
 Avez-vous déjà ouvert un livre de recettes de cuisine ? Avez vous déjà déchiffré un mode d’emploi traduit directement du coréen pour faire fonctionner un magnétoscope ou un répondeur téléphonique réticent ? Si oui, sans le savoir, vous avez déjà exécuté des algorithmes.
 Plus fort : avez-vous déjà indiqué un chemin à un touriste égaré ? Avez vous fait chercher un objet à quelqu’un par téléphone ? Ecrit une lettre anonyme stipulant comment procéder à une remise de rançon ? Si oui, vous avez déjà fabriqué – et fait exécuter – des algorithmes.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/algo.jpeg" data-background-size="contain"-->
+<!-- .slide: data-background-image="img/" data-background-size="contain"-->
 <!-- .slide: class="hover"-->
 
 ### Les biais algorithmiques
@@ -239,19 +314,22 @@ Plus fort : avez-vous déjà indiqué un chemin à un touriste égaré ? Avez vo
   - encourager des comportements sociaux discriminants (sexisme, racisme)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/algo.jpeg" data-background-size="contain" -->
+<!-- .slide: data-background-image="img/" data-background-size="contain" -->
 <!-- .slide: class="hover"-->
 
->Les algorithmes qui permettent de hiérarchiser les informations enferment des principes de classement et des visions du monde. Ils structurent très profondément la manière dont les internautes voient les informations et se représentent le monde numérique dans lequel ils se promènent, sans toujours soupçonner le travail souterrain qu’exercent les algorithmes sur leur itinéraire. (Dominique Cardon)
+>Les algorithmes qui permettent de hiérarchiser les informations enferment des principes de classement et des visions du monde. Ils structurent très profondément la manière dont les internautes voient les informations et se représentent le monde numérique dans lequel ils se promènent, sans toujours soupçonner le travail souterrain qu’exercent les algorithmes sur leur itinéraire.
 
 <!-- .element: style="font-size:1.7rem; text-align:justify" -->
+
+
+Source : Dominique Cardon, *À quoi rêvent les algorithmes ?*
+
+<!-- .element: class="source" -->
 
 ===
 Représenter, c'est structurer, en particulier dans le cas de l'algorithme
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/matrix.jpg" data-background-size="contain" -->
-<!-- .slide: class="hover"-->
 
 ### Les quatre familles d'algorithmes
 * *à côté du web* (mesure d'audience et popularité des sites)
@@ -270,8 +348,6 @@ Cardon distingue quatre familles de calcul numérique, différenciées à la foi
 La popularité, l’autorité, la réputation, la prédiction, voilà les quatre valeurs fondamentales qui sont à la fois productrices et produits des différents types d’algorithmes qui, dans les plateformes actuelles, s’intègrent l’un à l’autre et dont Cardon esquisse l’histoire.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/GAateliers.png" data-background-size="contain" -->
-<!-- .slide: class="hover"-->
 
 ### Algorithme de mesure d'audience
 * dit "à côté du web"
@@ -285,14 +361,15 @@ La popularité, l’autorité, la réputation, la prédiction, voilà les quatre
 <!-- .slide: data-background-image="img/gaAtelier2.png" data-background-size="contain" -->
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/GAateliers.png" data-background-size="contain" -->
-<!-- .slide: class="hover"-->
 
 * De la visite au "visiteur" unique (adresse IP)
 
->Déjà imparfaite dans le monde de la télévision, cette mesure révèle de redoutables imprécisions lorsqu’elle est appliquée au web. Car cette méthode ne sait jamais très bien qui se trouve derrière l’ordinateur familial. Elle suppose que les parcours multiples, rapides et enchevêtrés d’une navigation sur le web équivalent à une information lue, vue ou entendue dans les médias traditionnels. (Dominique Cardon, *À quoi rêvent les algorithmes*)
-
+>Déjà imparfaite dans le monde de la télévision, cette mesure révèle de redoutables imprécisions lorsqu’elle est appliquée au web. Car cette méthode ne sait jamais très bien qui se trouve derrière l’ordinateur familial. Elle suppose que les parcours multiples, rapides et enchevêtrés d’une navigation sur le web équivalent à une information lue, vue ou entendue dans les médias traditionnels.
 <!-- .element: style="font-size:1.7rem; text-align:justify" -->
+
+Source : Dominique Cardon, *À quoi rêvent les algorithmes ?*
+
+<!-- .element: class="source" -->
 
 ===
 
@@ -307,8 +384,6 @@ la médiocrité de la mesure d’audience a contribué à la chute des tarifs pu
 <!-- .slide: data-background-image="img/clickbait-quiz-1.jpg" data-background-size="contain" -->
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/pageRank.jpeg" data-background-size="contain" -->
-<!-- .slide: class="hover"-->
 
 ### Algorithme de hiérarchisation de l'autorité
 * dit "au-dessus" du web
@@ -335,48 +410,54 @@ L’algorithme du moteur de recherche ordonne les informations en considérant q
 il classe les sites à partir d’un vote censitaire au fondement méritocratique.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/pageRank.jpeg" data-background-size="contain" -->
+<!-- .slide: data-background-image="img/PageRank-hi-res.png" data-background-size="contain" -->
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/Internet-monde.jpg" data-background-size="contain" -->
-<!-- .slide: class="hover"-->
 
 * De la sagesse des foules à l'intelligence collective ?
 
->Dans son principe initial, le PageRank, l’algorithme qui a fait la fortune de Google, considère que les liens hypertextes enferment la reconnaissance d’une autorité : si le site A adresse un lien vers le site B, c’est qu’il lui accorde de l’importance. Qu’il dise du bien ou du mal de B n’est pas la question ; ce qui importe est le fait que A ait jugé nécessaire de citer B comme une référence, une source, une preuve, un exemple ou un contre-exemple. (Dominique Cardon, *À quoi rêvent les algorithmes*)
-
-
+>Dans son principe initial, le PageRank, l’algorithme qui a fait la fortune de Google, considère que les liens hypertextes enferment la reconnaissance d’une autorité : si le site A adresse un lien vers le site B, c’est qu’il lui accorde de l’importance. Qu’il dise du bien ou du mal de B n’est pas la question ; ce qui importe est le fait que A ait jugé nécessaire de citer B comme une référence, une source, une preuve, un exemple ou un contre-exemple.
 
 <!-- .element: style="font-size:1.7rem; text-align:justify" -->
 
 
+Source : Dominique Cardon, *À quoi rêvent les algorithmes ?*
+
+<!-- .element: class="source" -->
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/Internet-monde.jpg" data-background-size="contain" -->
-<!-- .slide: class="hover"-->
 
 * Les limites de la méritocratie
 
->Les lecteurs silencieux sont oubliés et le dénombrement des liens n’a rien du vote démocratique. Plus un site est cité par les autres, plus la reconnaissance qu’il adresse à d’autres a de poids dans le calcul d’autorité. Empruntée au système de valeurs de la communauté scientifique et notamment aux classements des revues scientifiques qui donnent plus de poids aux articles les plus cités par les autres, cette mesure de reconnaissance a spectaculairement prouvé qu’elle constituait l’une des meilleures approximations possible de la qualité des informations. (Dominique Cardon, *À quoi rêvent les algorithmes*)
+>Les lecteurs silencieux sont oubliés et le dénombrement des liens n’a rien du vote démocratique. Plus un site est cité par les autres, plus la reconnaissance qu’il adresse à d’autres a de poids dans le calcul d’autorité. Empruntée au système de valeurs de la communauté scientifique et notamment aux classements des revues scientifiques qui donnent plus de poids aux articles les plus cités par les autres, cette mesure de reconnaissance a spectaculairement prouvé qu’elle constituait l’une des meilleures approximations possible de la qualité des informations.
 
 <!-- .element: style="font-size:1.6rem; text-align:justify" -->
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/Internet-monde.jpg" data-background-size="contain" -->
-<!-- .slide: class="hover"-->
+Source : Dominique Cardon, *À quoi rêvent les algorithmes ?*
 
->Alors que les journalistes filtrent l’information sur la base d’un jugement humain avant de la publier, les moteurs de recherche (ainsi que Google News) filtrent a posteriori une information déjà publiée sur la base des jugements humains émis par l’ensemble des internautes qui publient sur le web. (Dominique Cardon, *À quoi rêvent les algorithmes*)
+<!-- .element: class="source" -->
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+>Alors que les journalistes filtrent l’information sur la base d’un jugement humain avant de la publier, les moteurs de recherche (ainsi que Google News) filtrent a posteriori une information déjà publiée sur la base des jugements humains émis par l’ensemble des internautes qui publient sur le web.
 
 <!-- .element: style="font-size:1.7rem; text-align:justify" -->
 
+Source : Dominique Cardon, *À quoi rêvent les algorithmes ?*
+
+<!-- .element: class="source" -->
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/clickbait-quiz-1.jpg" data-background-size="contain" -->
-<!-- .slide: class="hover"-->
+
 
 * Détournement et optimisation : une valse sans fin
->À la manière de la claque théâtrale, les stratèges du marché du référencement paient ou fabriquent des sites qui citent leurs clients : ils placent des liens vers le site cible dans les commentaires de blogs, glissent subrepticement un lien dans Wikipédia, créent des « fermes » de faux sites liés les uns aux autres pour adresser ensuite un lien hypertexte vers la cible, produisent de faux contenus (parfois produits par des robots) pour tromper l'algorithme. La plupart de ces techniques sont aujourd’hui devenues inefficaces en raison des modifications incessantes que Google apporte à l’algorithme pour décourager ceux qui essaient de tromper son classement. Mais ce jeu du chat et de la souris entre les webmestres et les concepteurs de l’algorithme est sans fin. (Dominique Cardon, *À quoi rêvent les algorithmes*)
+>À la manière de la claque théâtrale, les stratèges du marché du référencement paient ou fabriquent des sites qui citent leurs clients : ils placent des liens vers le site cible dans les commentaires de blogs, glissent subrepticement un lien dans Wikipédia, créent des « fermes » de faux sites liés les uns aux autres pour adresser ensuite un lien hypertexte vers la cible, produisent de faux contenus (parfois produits par des robots) pour tromper l'algorithme. La plupart de ces techniques sont aujourd’hui devenues inefficaces en raison des modifications incessantes que Google apporte à l’algorithme pour décourager ceux qui essaient de tromper son classement. Mais ce jeu du chat et de la souris entre les webmestres et les concepteurs de l’algorithme est sans fin.
 
 <!-- .element: style="font-size:1.7rem; text-align:justify" -->
+
+Source : Dominique Cardon, *À quoi rêvent les algorithmes ?*
+
+<!-- .element: class="source" -->
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 <!-- .slide: data-background-image="img/like.jpeg" data-background-size="contain" -->
@@ -397,34 +478,42 @@ il classe les sites à partir d’un vote censitaire au fondement méritocratiqu
 <!-- .slide: class="hover"-->
 
 * Je suis donc je "like"
->Alors que Google cherche à cacher le calculateur au-dessus du web afin que les internautes ne s’en emparent pas, les métriques de réputation du web social le glissent dans le web pour que les internautes se mesurent eux-mêmes. Le symbole de ces nouveaux calculs est le like de Facebook, pointe avancée d’un ensemble beaucoup plus large et disparate d’indicateurs mesurant la taille des réseaux personnels par le nombre d’amis, la réputation acquise en fonction du nombre d’informations publiées que d’autres internautes ont ensuite commentées ou partagées, le nombre de fois où le nom de l’internaute a été prononcé dans la conversation des autres, etc. (Dominique Cardon, *À quoi rêvent les algorithmes*)
+>Alors que Google cherche à cacher le calculateur au-dessus du web afin que les internautes ne s’en emparent pas, les métriques de réputation du web social le glissent dans le web pour que les internautes se mesurent eux-mêmes. Le symbole de ces nouveaux calculs est le like de Facebook, pointe avancée d’un ensemble beaucoup plus large et disparate d’indicateurs mesurant la taille des réseaux personnels par le nombre d’amis, la réputation acquise en fonction du nombre d’informations publiées que d’autres internautes ont ensuite commentées ou partagées, le nombre de fois où le nom de l’internaute a été prononcé dans la conversation des autres, etc.
 
 <!-- .element: style="font-size:1.7rem; text-align:justify" -->
 
+Source : Dominique Cardon, *À quoi rêvent les algorithmes ?*
+
+<!-- .element: class="source" -->
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/influenceur.png" data-background-size="contain" -->
-<!-- .slide: class="hover"-->
+
 
 * Le sacre de l'"influenceur"
 >Le web social de Facebook, Twitter, Pinterest, Instagram, etc., s’est ainsi couvert de chiffres et de petits compteurs, des « gloriomètres », pour reprendre une expression de Gabriel Tarde. Alors que dans le monde de l’autorité, la visibilité se mérite, dans celui des affinités numériques, elle peut se fabriquer. Façonner sa réputation, animer sa communauté d’admirateurs ou anticiper la viralité de ses messages constitue même un savoir-faire valorisé. (Dominique Cardon, *À quoi rêvent les algorithmes*)
 
 <!-- .element: style="font-size:1.7rem; text-align:justify" -->
 
+Source : Dominique Cardon, *À quoi rêvent les algorithmes ?*
+
+<!-- .element: class="source" -->
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 <!-- .slide: data-background-image="img/influenceur.png" data-background-size="contain" -->
-<!-- .slide: class="hover"-->
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 * Le règne de l'évaluation
 >Dans le cas des biens culturels, comme l’évaluation des films cinématographiques, les notes ont plus d’importance qu’une collection d’avis singuliers9. Lorsque l’évaluation du bien comporte des aspects techniques, la parole d’experts est préférée à l’agrégation des notes de consommateurs peu compétents. La démocratisation de l’évaluation profane associe l’idée de pouvoir tout noter à celle de faire noter tout le monde. (Dominique Cardon, *À quoi rêvent les algorithmes*)
 
 <!-- .element: style="font-size:1.7rem; text-align:justify" -->
 
+Source : Dominique Cardon, *À quoi rêvent les algorithmes ?*
+
+<!-- .element: class="source" -->
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/bulle.jpeg" data-background-size="contain" -->
-<!-- .slide: class="hover"-->
 
 * Tous dans sa bulle (de filtres) ? (Eli Pariser)
   - filtrage de l'information en fonction de notre "profil"
@@ -434,6 +523,10 @@ il classe les sites à partir d’un vote censitaire au fondement méritocratiqu
 
 ===
 La bulle de filtres1 ou bulle de filtrage (de l’anglais : filter bubble) est un concept développé par le militant d'Internet Eli Pariser. Selon Pariser, la « bulle de filtres » désigne à la fois le filtrage de l'information qui parvient à l'internaute par différents filtres ; et l'état d'« isolement intellectuel » et culturel dans lequel il se retrouve quand les informations qu'il recherche sur Internet résultent d'une personnalisation mise en place à son insu.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/bulle.jpeg" data-background-size="contain" -->
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 <!-- .slide: data-background-image="img/predictif.jpeg" data-background-size="contain" -->
@@ -469,6 +562,10 @@ réellement. Les algorithmes prédictifs ne donnent pas une réponse à ce que l
 
 <!-- .element: style="font-size:1.7rem; text-align:justify" -->
 
+Source : Dominique Cardon, *À quoi rêvent les algorithmes ?*
+
+<!-- .element: class="source" -->
+
 ===
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -478,9 +575,42 @@ réellement. Les algorithmes prédictifs ne donnent pas une réponse à ce que l
 * Les algorithmes prédictifs : outils marketing des industries culturelles
 * Prédiction ou prescription ?
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/streetview.png" data-background-size="contain" -->
+<!-- .slide: data-background-image="img/" data-background-size="contain" -->
 <!-- .slide: class="hover"-->
+
+### Comprendre la structuration du web : un enjeu ontologique et politique
+* Toute médiation joue un rôle structurant et déterminant dans la construction du réel
+* Nous construisons des outils pour calculer, structurer, organiser le web...
+* Ces calculateurs, en retour, nous construisent à leur tour...
+
+===
+En résumé, comprendre le web est un enjeu ontologique et politique.
+Je me répète : Le Réel est toujours médié - il n'est donc pas question de dire ici que le numérique est une médiation pire que les autres... Mais puisque toute médiation cherche par nature à se faire oublier, à se rendre transparente, on oublie qu'elles ont un rôle structurant et même déterminant sur le réel. C'est la fonction performative des médias et des représentations.
+En raison même de cette tendance à la superposition entre le monde tel qu'il est représenté et ses conceptions, il nous faut au moins être capable de comprendre comment la représentation du monde contemporain s'effectue.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/photolit.png" data-background-size="contain" -->
+<!-- .slide: class="hover"-->
+
+### Maîtrise de la déprise
+* Bien structurer les contenus (en vue de leur organisation / appropriation) = métadonnées
+* Comprendre les logiques de recherche / indexation = algorithmes
+
+===
+Alors évidemment, un premier comportement pourrait nous pousser vers un rejet total des nouvelles technos... Mais bon, nous n'avons pas tout à fait le choix : on voit bien aujourd'hui qu'elles sont très utiles. Et surtout, la technophobie ne semble pas être une solution sage au long terme.
+
+L'enjeu sera plutôt de maîtriser la déprise imposée par certains outils. La déprise, c'est le fait que nécessairement le fonctionnement de certains outils nous échappe. La maîtrise de cette déprise, c'est de trouver de quoi compenser cette déprise. La première chose : c'est l'éducation ! La connaissance des outils que l'on utilise.s
+
+La fameuse littératie numérique : non pas savoir coder, mais comprendre les présupposés épistémologiques qui guident la construction des outils que nous utilisons chaque jour.
+
+Première leçon, sorte de pré-requis à l'algorithme, c'est la métadonnée.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 >Comme les GPS dans les véhicules, les algorithmes se sont silencieusement glissés dans nos vies. Ils ne nous imposent pas la destination. Ils ne choisissent pas ce qui nous intéresse. Nous leur donnons la destination et ils nous demandent de suivre "leur" route. La conduite GPS s'est si fortement inscrite dans les pratiques des conducteurs que ceux-ci ont parfois perdu toute idée de la carte, des manières de la lire, de la diversité de ses chemins et des joies de l'égarement.
 Les algorithmes [procèdent] d'un désir d'autonomie et de liberté. Mais ils contribuent aussi à assujettir l'internaute à cette route calculée, efficace, automatique, qui s'adapte à nos désirs en se réglant secrètement sur le désir des autres. Avec la carte, nous avons perdu le paysage. Le chemin que nous suivons est le "meilleur" pour nous. (Dominique Cardon, *À quoi rêvent les algorithmes*)
@@ -488,8 +618,6 @@ Les algorithmes [procèdent] d'un désir d'autonomie et de liberté. Mais ils co
 <!-- .element: style="font-size:1.7rem; text-align:justify" -->
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/predictif.jpeg" data-background-size="contain" -->
-<!-- .slide: class="hover"-->
 
 ## Conclusion
 Comment le web est-il construit ? Comment, en d'autres termes, se structure le media qui constitue aujourd'hui notre fenêtre sur le monde, et qui participe à structurer le réel ? L'organisation des contenus sur le web passe par des outils - métadonnées, algorithmes - dont les concepteurs, humains, laissent une signature. Le résultat d'une recherche, d'une navigation, n'est donc jamais neutre. Connaître le fonctionnement de l'indexation est essentiel pour être conscient des biais dans l'organisation des contenus sur les moteurs de recherche ou les grandes plateformes. C'est tout le sens d'une littératie numérique : utiliser en toute conscience, en connaissance de cause, des outils qui font désormais partie de notre quotidien. C'est enfin le sens d'une "maîtrise" de la "déprise".

@@ -10,7 +10,22 @@
 
 Ce cours s'inscrit dans une discipline relativement nouvelle pour vous : l'info-com. Certains d'entre vous l'ont déjà découverte au semestre dernier, pour d'autre, c'est encore inédit. L'info-com, pour "information-documentation" est une discipline très englobante, qui s'inscrit à la croisée des chemins : entre les lettres, la sociologie, la philo, les sciences des techniques, les sciences de la communication. Au sein de cette discipline, il existe plusieurs approches, plusieurs écoles, des consensus et des débats (c'est le lot de toute discipline, que l'on soit en sciences dures ou sciences molles), mais toutes celles et tous ceux qui pratiquent cette discipline cherchent à étudier, comprendre, maîtriser les concepts, les outils, les usages et les pratiques de tout ce qui relève de la communication (comment faire passer un message, comment comprendre et se faire comprendre), et de l'information au sens large (soit les contenus compris dans l'acte de communication).
 
-Il existe plusieurs approches de l'info-com, pour ceux d'entre vous qui ont déjà suivi des cours avec moi, vous savez désormais que je m'intéresse à la théorie des *media*, une approche qui est principalement issue des courants théoriques anglo-saxons / nord-américains.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/moodle.png" data-background-size="contain"-->
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+## Comment ce cours est-il évalué&nbsp;?
+* => cf. page "Modalités d'évaluation" sur Moodle
+### 2 DM pendant le semestre
+### 1 DST le 9 mai 2022
+
+===
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -25,6 +40,8 @@ Il existe plusieurs approches de l'info-com, pour ceux d'entre vous qui ont déj
 * Un objet singulier, intime...
 
 ===
+
+Il existe plusieurs approches de l'info-com, pour ceux d'entre vous qui ont déjà suivi des cours avec moi, vous savez désormais que je m'intéresse à la théorie des *media*, une approche qui est principalement issue des courants théoriques anglo-saxons / nord-américains.
 
 Un media, c'est quoi ? c'est un moyen de communication (le cinéma, la télévision, le livre, le journal, la radio, la photographie…) qui comprend plusieurs facettes : à la fois technique, discursive, pratique, sociologique, politique, esthétique, institutionnelle… Un media, c'est ce qui fait le lien entre les individus (définition étymologique).
 
@@ -225,6 +242,9 @@ Réhabilitant d’abord les cultures ouvrières puis les cultures moyennes, enfi
 Source : Publictionnaire
 
 <!-- .element: class="source" -->
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/publictionnaire.png" -->
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
