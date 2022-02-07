@@ -1,4 +1,4 @@
-<!-- .slide: data-background-image="img/williamBetts.jpeg" data-background-size="contain" -->
+<!-- .slide: data-background-image="img/williamBetts.jpeg"  -->
 
 ## Tous calculés ?
 
@@ -30,9 +30,12 @@ L'organisation des différentes données sur le web : pourquoi, lorsque l'on tap
 
 ===
 
-Rappel d'un problème que l'on a vu il y a 2 semaines : l'hégémonie des moteurs de recherche sur le web. En gros, on utilise tous Google. Cela ne serait pas si grave si nous ne l'utilisions pas si mal : la paresse, le manque de littératie numérique (cad de connaissance de la façon dont fonctionne vraiment ces outils) nous pousse à ne consulter que les premiers résultats de la première page, sans aller plus loin.
+Rappel d'un problème que l'on a vu la semaine dernière : l'hégémonie des moteurs de recherche sur le web. En gros, on utilise tous Google. Cela ne serait pas si grave si nous ne l'utilisions pas si mal : la paresse, le manque de littératie numérique (cad de connaissance de la façon dont fonctionne vraiment ces outils) nous pousse à ne consulter que les premiers résultats de la première page, sans aller plus loin.
 
-Pourquoi dire que nous utilisons mal les outils ? Arrêtons nous d'abord sur les problèmes posés par cette manière de chercher...
+Si je dis que nous utilisons mal Google, ce n'est pas parce que nous ne savons pas le faire fonctionner (tout le monde est capable de taper une requête), mais parce que nous ne savons pas bien comment lui, fonctionne vraiment. Nous le pensons trop souvent comme un outil objectif, ce qu'il n'est pas du tout.
+
+Un moteur de recherche, fondamentalement, a pour fonction de faire le tri : comment ce tri est-il effectué ? Pourquoi certains contenus sont-ils mis en avant, pourquoi d'autres sont-il au contraire relégués aux oubliettes ?
+C'est à cette question que l'on va répondre aujourd'hui, en proposant un panorama des différents algorithmes de structuration du web.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 <!-- .slide: data-background-image="img/" data-background-size="contain" -->
@@ -40,9 +43,11 @@ Pourquoi dire que nous utilisons mal les outils ? Arrêtons nous d'abord sur les
 
 ### Structuration du web, structuration du réel ?
 * Si je cherche un service sur *google maps*, j'ai tendance à ne considérer que la liste donnée par l'outil...
-* Je ne consulte souvent que les premiers résultats de ma recherche... (cf. la bataille du référencement pour les sites d'information sur la contraception et l'avortement)
+* Je ne consulte souvent que les premiers résultats de ma recherche... (cf. la bataille du référencement pour certains sites sensibles, ou commerciaux, etc.)
 
 ===
+
+Mais revenons d'abord à la base du problème : le web, un espèce de grand fourre-tout auquel on ne comprendrait plus rien s'il n'y avait pas les algorithmes (qui sont indispensables).
 
 Le web, c'est un amas de données, sans cesse en train de s'augmenter de manière exponentielle, des contenus en tous genre en quantités astronomiques, ce que l'on appelle le big data, tellement gigantesque qu'il n'est pas appréhendable par l'esprit humain.
 
@@ -66,9 +71,7 @@ Toutes ces adresses font l'objet d'une évaluation et de commentaire. On peut co
 
 AUtre exemple, encore plus simple et plus parlant probablement : celui des sites d'information pour les IVG : régulièrement, il y a une sorte de combat d'indexation entre le site d'information du gouvernement et des sites militants, généralement anti-OVG, pour la première place du classement.
 
-Tout cela pour dire que si la question de la structuration du web est aussi problématique, c'est parce qu'elle structure en fait le réel. Elle a un impact effectif sur notre monde et notre manière de l'habiter.
-
-Ce qui est intéressant, c'est de constater combien ces façons de faire, désormais courantes avec nos usages numériques, nous paraîtraient totalement inconcevables dans d'autres sphères d'action.
+Tout cela pour dire que si la question de la structuration du web est aussi problématique, c'est parce qu'elle structure en fait le réel. Elle a un impact effectif sur notre monde et notre manière de l'habiter, d'y vivre.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -80,11 +83,12 @@ Comment le web est-il formé, structuré, organisé ? Comment se structure le me
 
 ===
 
-Je voudrais commencer par une petite digression épistémologique : ce cours est un cours en théorie des media. J'ai finalement peu défini, je me rends compte, ce qu'il faut entendre par media. Un media, au sens général du terme, c'est ce qui est "entre" les choses. Les mass media (la presse, la TV, les réseaux sociaux), médient des informations: ils se placent entre les événements, les faits, et nous. Ils fabriquent ainsi l'actualité. Mais les livres, le cinéma, la radio sont eux aussi des media: ils proposent des formes d'enregistrement, de représentation du monde et du réel, qui se trouvent de fait médiés. Notre accès au réel, au monde, est ainsi dans 90% des cas médié : les choses du monde me parviennent par le biais d'un livre, d'un journal, d'une écriture... mais aussi d'une voix, par exemple.
+Je vais expliciter la problématique du jour dans un instant, mais avant cela, je tiens à rappeler l'un des fondements du cours : ce cours est un cours en théorie des media. Un media, au sens général du terme, c'est ce qui est "entre" les choses. Les mass media (la presse, la TV, les réseaux sociaux), médient des informations: ils se placent entre les événements, les faits, et nous. Ils fabriquent ainsi l'actualité. Mais les livres, le cinéma, la radio sont eux aussi des media: ils proposent des formes d'enregistrement, de représentation du monde et du réel, qui se trouvent de fait médiés. Notre accès au réel, au monde, est ainsi dans 90% des cas médié : les choses du monde me parviennent par le biais d'un livre, d'un journal, d'une écriture... mais aussi d'une voix, par exemple.
 
 De fait, Médier le réel, c'est le construire, et c'est le construire en le modélisant, en le rendant appréhendable, compréhensible - au sens étymologique du terme, "prendre avec soi". Représenter le monde, c'est chercher à le prendre avec soi, à s'en saisir, afin de mieux y habiter. Or comment représenter, comment comprendre et donc comment habiter le monde aujourd'hui ?
 
-Cette question résonne tout particulièrement dès lors que l'on s'intéresse à un outil numérique devenu incontournable : le web. Pour utiliser une métaphore propre à la représentation, le web est aujourd'hui une fenêtre sur notre monde. Mais il n'est pas seulement cela : il a tendance à le structurer largement, en influençant notre accès à l'information et par conséquent nos comportements. Du coup, la question à se poser est la suivante : comment le web est-il lui-même formé et lui-même structuré ? Comment, pour compléter la problématique, est construit, est structuré le media qui constitue notre fenêtre sur le monde contemporain et qui donc participe à structurer notre monde ?
+Cette question résonne tout particulièrement dès lors que l'on s'intéresse au web. Pour utiliser une métaphore propre à la représentation, le web est aujourd'hui une fenêtre sur notre monde. Mais il n'est pas seulement cela : il a tendance à le structurer largement, en influençant notre accès à l'information et par conséquent nos comportements. Du coup, la question à se poser est la suivante : comment le web est-il lui-même formé et lui-même structuré ? Comment, pour compléter la problématique, est construit, est structuré le media qui constitue notre fenêtre sur le monde contemporain et qui donc participe à structurer notre monde ?
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 <!-- .slide: data-background-image="img/bookshop.jpg" data-background-size="contain" -->
@@ -92,8 +96,9 @@ Cette question résonne tout particulièrement dès lors que l'on s'intéresse �
 
 ===
 
-Comparez un peu vos pratiques avec, par exemple, celle du flânage en libraire, ou dans un magasin de vêtements. Vous arrêtez-vous toujours seulement sur ce qui est présenté en vitrine ? Vous contentez-vous seulement de choisir les livres mis en évidences sur les présentoirs ? Ce goût que nous avons pour le flanage, la fouille dans les rayons d'une librairie, d'une boutique quelconque, nous le perdons la plupart du temps lors de nos recherches sur Google. Peu d'utilisateurs vont explorer les 100aines de résultats...
+Ce qui est intéressant, c'est de constater combien ces façons de faire, désormais courantes avec nos usages numériques, nous paraîtraient totalement inconcevables dans d'autres sphères d'action.
 
+Comparez un peu vos pratiques avec, par exemple, celle du flânage en libraire, ou dans un magasin de vêtements. Vous arrêtez-vous toujours seulement sur ce qui est présenté en vitrine ? Vous contentez-vous seulement de choisir les livres mis en évidences sur les présentoirs ? Ce goût que nous avons pour le flanage, la fouille dans les rayons d'une librairie, d'une boutique quelconque, nous le perdons la plupart du temps lors de nos recherches sur Google. Peu d'utilisateurs vont explorer les 100aines de résultats...
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 <!-- .slide: data-background-image="img/amazon1.png" data-background-size="contain" -->
@@ -162,7 +167,7 @@ Si la distinction entre donnée brute et information interprétée et contextual
 
 Si la donnée n'est donc pas toujours objective, c'est encore moins le cas d'une information (dans le sens d'une nouvelle) transmise par un journaliste, un media ou une personne.
 
-En journalisme, Une information digne de ce nom doit obéir à un trois impératifs fondamentaux :
+Une information digne de ce nom doit obéir à un trois impératifs fondamentaux :
 - Avoir un intérêt pour le public (cf. loi des proximités)
 - Être factuelle (information n’est pas opinion)
 - Reposer sur des sources traçables, identifiables, vérifiables
@@ -184,9 +189,8 @@ En journalisme, Une information digne de ce nom doit obéir à un trois impérat
 
 
 ===
-On a vu la semaine passée la différence entre une donnée et une information : Dans sa définition la plus générale, une donnée désigne un fait ou un élément "brut", qui n'a pas encore été traité ou mise en contexte - qui n'est donc pas encore transformée en information.
 
-Dans le domaine plus précis de l'informatique, une donnée est la représentation d'une information dans un programme : une donnée peut donc être du texte, du son, une image, etc.
+Dans le domaine précis de l'informatique, une donnée est la représentation d'une information dans un programme : une donnée peut donc être du texte, du son, une image, etc.
 
 Avec le développement et la démocratisation des outils numériques, en particulier du web, l'ensemble des données produites et stockées sur les serveurs est devenu si volumineux qu'il dépasse de loin les capacités humaines d'analyse et même celles des outils informatiques classiques. Cette masse d'informations, de données, est appelée le *big data*.
 
@@ -448,18 +452,6 @@ Source : Dominique Cardon, *À quoi rêvent les algorithmes ?*
 <!-- .element: class="source" -->
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-* Détournement et optimisation : une valse sans fin
->À la manière de la claque théâtrale, les stratèges du marché du référencement paient ou fabriquent des sites qui citent leurs clients : ils placent des liens vers le site cible dans les commentaires de blogs, glissent subrepticement un lien dans Wikipédia, créent des « fermes » de faux sites liés les uns aux autres pour adresser ensuite un lien hypertexte vers la cible, produisent de faux contenus (parfois produits par des robots) pour tromper l'algorithme. La plupart de ces techniques sont aujourd’hui devenues inefficaces en raison des modifications incessantes que Google apporte à l’algorithme pour décourager ceux qui essaient de tromper son classement. Mais ce jeu du chat et de la souris entre les webmestres et les concepteurs de l’algorithme est sans fin.
-
-<!-- .element: style="font-size:1.7rem; text-align:justify" -->
-
-Source : Dominique Cardon, *À quoi rêvent les algorithmes ?*
-
-<!-- .element: class="source" -->
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 <!-- .slide: data-background-image="img/like.jpeg" data-background-size="contain" -->
 <!-- .slide: class="hover"-->
 
@@ -549,24 +541,6 @@ les mesures prédictives destinées à personnaliser les informations présenté
 
 * Collecte de données / traces disséminées par l'internaute
 * Machine learning (personnalisation du calcul à partir de la comparaison des comportements des internautes)
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/predictif.jpeg" data-background-size="contain" -->
-<!-- .slide: class="hover"-->
-
-
->À grand renfort de travaux de psychologie et d’économie expérimentales, les architectes des nouveaux algorithmes des big data assurent qu’il ne faut faire confiance qu’aux conduites réelles des individus, et non à ce qu’ils prétendent faire lorsqu’ils se racontent sur les très expressives plateformes du web social. Les régularités globales observées sur de grandes masses de traces doivent permettre d’estimer ce que l’utilisateur risque de faire
-réellement. Les algorithmes prédictifs ne donnent pas une réponse à ce que les gens disent vouloir faire, mais à ce qu’ils font sans vouloir vraiment se le dire. (Dominique Cardon, *À quoi rêvent les algorithmes*)
-
-
-<!-- .element: style="font-size:1.7rem; text-align:justify" -->
-
-Source : Dominique Cardon, *À quoi rêvent les algorithmes ?*
-
-<!-- .element: class="source" -->
-
-===
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 <!-- .slide: data-background-image="img/youtube.png" data-background-size="contain" -->
