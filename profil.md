@@ -16,16 +16,60 @@ Source : William Betts
 
 ===
 
-Généalogie du profil
+Aujourd'hui, je vais terminer le tour d'horizon du portrait du consommateur numérique, en nous intéressant à un objet, ou une forme qui incarne au  mieux notre identité numérique : le profil.
 
-Ouvrir sur StoryFace
+On a tous un profil qq part : sans même parler des réseaux sociaux, on a un profil client sur des sites de vente en ligne, sur le bon coin, auprès de notre journal en ligne. Ou tout simplement, un profil étudiant sur Moodle.
+
+Les profils sont devenus une entité qui construit ce que l'on pourrait qualifier d'identité numérique, sans que cette identité soit tout à fait superposable à notre identité physique - mais la relation entre les 2 est plus ambiguë qu'on ne veut bien l'admettre.
+
+Problématique du profil est large. Pour aborder celle qui m'intéresse, je vais ouvrir le cours avec un exemple.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/storyface.png" -->
+
+===
+
+>"StoryFace" est une création numérique en ligne qui s’appuie sur la captation et la reconnaissance des émotions faciales. L’utilisateur arrive sur un site de rencontre. On lui propose d’afficher, face à la webcam, l’émotion qui lui semble le caractériser le mieux. Lui sont alors proposés des profils de partenaires. Il peut en choisir un et échanger avec le partenaire fictif. L’attention de l’utilisateur va alors se porter sur le contenu des messages. Cependant, le visage de l’utilisateur continue d’être « traqué ». Est mise en évidence ici la tendance des dispositifs de reconnaissance des émotions à normaliser celles-ci. Qu’attend le dispositif comme émotion ? On glisse de la mesure des émotions à la fabrique, la normalisation et la standardisation des émotions.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/storyface1.png" -->
+
+===
+
+Storyface = oeuvre numérique, à la fois littéraire et médiatique.
+
+C'est un faux site de rencontre sur lequel des profils fictifs ont été construits (notamment par les utilisateurs eux-mêmes). Des scénarios sont pré-construits afin de nous faire interagir avec le personnage.
+
+Tout au long de l'expérience, notre webcam est ouverte, et une Intelligence Artificielle est chargée de nous "observer", de surveiller nos comportements et de déterminer si, par nos expressions faciales, nous sommes honnêtes ou non (si l'on prétend être triste ou en colère, il faudra que notre visage exprime tristesse ou colère), afin de nous permettre de poursuivre l'expérience.
+
+Ce phénomène d'observation-réaction (ce que l'on appelle en communication un feed-back), c'est ce que mettent en place la plupart des algo : à partir de l'observation de nos comportements, il en déduisent des modèles et proposent des solutions (mais celles-ci ne sont pas toujours adaptées).
+
+Évidemment, ce dispositif permet de révéler un certain nombre de problèmes fondamentaux :
+1. nos comportements (ici nos expressions) ne reflètent pas toujours ce que nous pensons ou ressentons réellement.
+2. la modélisation (cad le fait de créer des systèmes pour nous catégoriser et proposer des solutions ou prédire des comportement à venir) repose sur un principe d'uniformisation potentiellement problématique puisque :
+3. on finit par nous adapter à la machine parfois davantage qu'elle ne s'adapte à nous.
+4. De manière absolue : peut-on seulement modéliser des humains, des comportements humains ?
+
+Le cas des sites de rencontre est très intéressant, car en plus de vous modéliser vous en tant que personne cherchant l'être aimé (et donc en modélisant votre âme soeur), ils modélisent également ce que serait l'amour.
+
+Comment savoir si nous aimons ou si nous sommes aimés ? Un sentiment, une émotion, est-elle reconnaissable, reproductible, peut-elle être reproduite artificiellement ? On sait bien que les choses ne sont pas si simple. COmment exprimer ce que l'on ressent vraiment, comment être sûr de ce que l'autre ressent ?
+
+Vous comprenez bien que si ces questions sont déjà complexes à traiter en temps normal, il est sans doute encore plus difficile de demander à un algorithme de le faire.
+Et pourtant, la communication, en tant que science, est née de ce désir de modéliser les échanges entre les être humains, notamment pour les améliorer. En d'autres termes, le XXe siècle a été traversé par cette recherche, avec la technique et les machines, pour mieux définir les comportements humains. Les profils d'aujourd'hui, qu'ils soient plus ou moins sophistiqués, en sont une manifestation.
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-### StoryFace : les limites du profilage
-* Quelle est la part de "réalité" du profil ?
-* Le profil, une entité "virtuelle" ?
+### Problématique
+* (Quelle est la part de "réalité" du profil ? Le profil, une entité "virtuelle" ?)
+* **Jusqu'où ces profils sont-ils le reflet de nous-mêmes ? À quel moment sommes-nous tentés d'adhérer au modèle profilaire ?**
 
+===
+
+La pbk pourrait être une question simple et dichotomique : est-ce que le profil est réel ou virtuel ? Mais on voit bien que cette question n'a pas trop de sens, elle est trop simpliste, car nous sommes de toute manière des êtres augmentés par notre relation à la machine -- une machine elle-même basée sur nos comportements, et fabriquée par nos soins...
+
+On cherchera donc plutôt à problématiser cette interaction obligée : Mais jusqu'où ces profils sont-ils le reflet de nous-mêmes ? À quel moment sommes-nous tentés d'adhérer au modèle profilaire ?
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -154,7 +198,7 @@ Aujourd’hui en effet, chaque grande plateforme nous demande la création d’u
 
 Le profil cristallise en effet un large éventail d’inquiétudes et de polémiques quant à la place du sujet dans la société contemporaine : si toutes ne sont pas toujours justifiées (certaines sont même largement fantasmées), elles se font cependant l’écho d’une renégociation des rapports qui unissent l’humain à la machine numérique. De façon schématique, et en forçant quelque peu le trait, trois axes de réflexion s’ouvrent à nous, selon que l’on envisage tel ou tel aspect de cette relation homme/machine.
 
-1.   Le premier s’attache à l’exploration du degré d’autonomie ou au contraire d’hétéronomie qui définit la relation sujet/logiciel. Il s’agit de déterminer dans quelle mesure notre identité numérique (et, d’ailleurs, le concept d’identité à part entière), est déterminée par les outils ou les plateformes numériques. On se demandera donc dans quelle mesure la plateforme d'écriture est-elle un moule identitaire qui m’enferme plutôt qu’elle ne me permet de m’épanouir, de me construire, de me trouver ? J'y reviendrai dans un instant avec les questions de plateformisation des profils numériques sur les grands média sociaux.
+1.   Le premier s’attache à l’exploration du degré d’autonomie ou au contraire d’hétéronomie qui définit la relation sujet/logiciel. Il s’agit de déterminer dans quelle mesure notre identité numérique (et, d’ailleurs, le concept d’identité à part entière), est déterminée / influencée par les outils ou les plateformes numériques = exemple de Story face où mon comportement s'adapte à la machine et ses algo plutôt que l'inverse. On se demandera donc dans quelle mesure la plateforme d'écriture est-elle un moule identitaire qui m’enferme plutôt qu’elle ne me permet de m’épanouir, de me construire, de me trouver ? J'y reviendrai dans un instant avec les questions de plateformisation des profils numériques sur les grands média sociaux.
 
 
 2.   Le second axe de réflexion est principalement motivé par les études algorithmiques. Les génération récentes d'algorithmes, dits « prédictifs », comme chez Amazon et Netflix par exemple, ont notamment parié sur notre caractère modélisable. Sur la base de nos choix et de nos comportements en ligne, ces algorithmes émettent des suggestions de manière à présélectionner et orienter nos futurs achats. Le nom même de ces algorithmes, « prédictifs » – trompeur car, bien entendu, l’algorithme ne « devine » nullement l’avenir – suscite la défiance : serions-nous tous si facilement calculables ? Jusqu’à quel point sommes-nous forgés sur le même modèle que ces robots qui nous étudient sur le web ?
@@ -238,137 +282,23 @@ Pour résumer, lorsque nous écrivons en ligne :
 La réflexion sur l'écriture (numérique) de soi sera donc politique ou ne sera pas : comme le souligne Cécile Portier, tout l'enjeu d'une écriture de soi en ligne consiste à « jouer au jeu de l’arroseur arrosé », de manière à reprendre la main sur l’écriture de nos traces que se sont peu à peu appropriées les systèmes statistiques du web, dans le but de nous convertir en êtres de données.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/myGoogleSearchHistory.png" data-background-size="contain" -->
-
-
-
-Source : [Albertine Meunier, My Google Search History](https://www.albertinemeunier.net/google_search_history/google_search_history.htm)
-
-<!-- .element: class="source" -->
-
-===
-On en trouvera un bon exemple avec le projet Dada-data d'Albertine Meunier, My Google Search History, dans laquelle l'autrice use de son historique Google comme d'un matériau littéraire, pour remédiatiser son ethos numérique.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/storyface.png" data-background-size="contain" -->
-
-
-## [2] Une écriture algorithmique : le sujet modélisé
-
-===
-
-J'en viens à présent à la question de l'écriture algorithmique. Évidemment, le sujet est très proche de la collecte des données dont je viens de parler, puisqu'il en découle directement.
-
-Je tiens à rappeler ici un principe fondamental, qui arrive peut-être un peu tard par rapport à ma présentation : une algorithme n'est pas neutre. Tout comme le principe de sélection des données, il n'est pas une émanation machinique : il a été programmé par les humains. De fait, un algorithme comprend de nombreux biais (tout comme les données) de nombreux travaux ont montré combien les algorithmes ont tendance à :
-  - reproduire les préjugés
-  - encourager des comportements sociaux discriminants (sexisme, racisme)
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/numerique.jpg" data-background-size="contain" -->
-<!-- .slide: class="hover" -->
-
-### Modélisé, modelé ? (Meunier, Stiegler, Cardon)
->Aussi, il ne faut pas confondre le numérique avec le computationnel. En effet, ce n’est pas parce que des projets numérisent de plus en plus des objets sémiotiques complexes, au point d’en faire d’immenses reposoirs – des big data – que l’on trouvera facilement des algorithmes pour les traiter. Il n’est même pas assuré que ces algorithmes existent pour les tâches complexes qui traversent les humanités. Peut-être que les opérations effectuées dans les humanités parce qu’elles sont réalisées par des humains ou qu’elles portent sur des activités humaines sont tout simplement non computables. (Jean-Guy Meunier)
-
-<!-- .element: style="font-size:1.4rem; text-align:justify" -->
-
-===
-
-Fondamentalement, l'écriture algorithmique pose un problème à la fois passionnant et terrifiant : celui de la modélisation du Sujet humain, de son individualité.
-
-Le problème de la modélisation est directement lié à celui de l'écriture machine : un ordinateur ne parle pas notre langue. Il comprend une série d'instructions encodées (0/1). Pour qu'un ordi puisse réaliser un calcul en vue d'interpréter un fait ou un phénomène, il faut donc décrire l'ensemble des éléments de ce phénomène. Or cette description doit être computationnelle : la computationnalité renvoie au problème de la calculabilité, "c’est-à-dire de la manipulation formelle (sans signification) de symboles pour décider si une formule particulière (une équation, une formule logique) appartient ou n’appartient pas à un système mathématique (celui de nombres)." JG Meunier.
-
-Or, non seulement on ne peut qu'imaginer à quel point il est difficile de modéliser un objet aussi complexe qu'un individu ou qu'une identité (qui plus est, toujours mouvante), mais on doit même se demander si ce n'est pas dangereux !
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/numerique.jpg" data-background-size="contain" -->
-<!-- .slide: class="hover" -->
-
-
->Être entièrement calculables par les algorithmes nous réduit à rien. (Bernard Stiegler)
-
-===
-
-Pour le Philosophe Bernard Stiegler, qui s'est intéressé à la question dans l'ouvrage *Dans la disruption, comment ne pas devenir fou ?*, « Être entièrement calculables par les algorithmes nous réduit à rien ».
-
-L'écriture algorithmique reposerait de ce point de vue sur une représentation et une définition trop sommaire de l'individu, au risque de la simplification excessive.
-
-De nombreux travaux ont par exemple démontré que les algorithmes du web, en particulier ceux des réseaux sociaux, ont tendance à nous enfermer dans des bulles cognitives (les de filter bubbles d’Eli Pariser), en filtrant les contenus de manière à ce qu’ils correspondent à nos propres goûts, préférences et comportements, plutôt que de nous ouvrir à des idéologies différentes.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/influenceur.png" data-background-size="contain" -->
-<!-- .slide: class="hover"-->
-
-### Le design de la visibilité : je suis donc je "like" / je suis "liké" (Cardon)
->Le web social de Facebook, Twitter, Pinterest, Instagram, etc., s’est ainsi couvert de chiffres et de petits compteurs, des « gloriomètres », pour reprendre une expression de Gabriel Tarde. Alors que dans le monde de l’autorité, la visibilité se mérite, dans celui des affinités numériques, elle peut se fabriquer. Façonner sa réputation, animer sa communauté d’admirateurs ou anticiper la viralité de ses messages constitue même un savoir-faire valorisé. (Dominique Cardon, *À quoi rêvent les algorithmes*)
-
-<!-- .element: style="font-size:1.7rem; text-align:justify" -->
-
-===
-Ce que les travaux de Cardon montrent, c'est la lutte qui s'opère pour gagner en visibilité sur le web. Ce qui nous amène à formuler une remarque : exister en ligne, c'est être bien indexé. La construction de l'écrit de soi en ligne est tributaire de ce nouveau design de la visibilité, devenu une condition d'existence du sujet numérique. Ce qui tend à confirmer ce que l'on a dit plus tôt : ce n'est pas toujours l'algorithme qui parvient à bien nous modéliser, c'est nous qui modelons une figure capable d'être performante au regard de l'algorithme.
-
-Ces 4 modèles algorithmiques s'esquissent autour de quatre valeurs fondamentales qui viennent forger notre ethos numérique:  la popularité, l’autorité, la réputation, la prédiction.
-
-Pour illustrer cette question de l'algorithme et de l'écrit de soi littéraire, j'avais l'embarras du choix. J'ai longtemps hésité à vous montrer une IA, une Booktubeuse, une page d'accueil générée automatiquement ou encore un profil sur le dictionnaire visuel Google image, mais mon choix s'est finalement porté vers l'oeuvre de Serge Bouchardon et Alexandra Saemmer : Story Face.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/storyface1.png" data-background-size="contain" -->
-
-
-===
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 <!-- .slide: data-background-image="img/AnneARchetTwitter.png" data-background-size="contain" -->
 
 
-## [3] Une écriture profilaire : le sujet formaté
-
-
-===
-
-J'en viens à présent à la question des écritures profilaires, qui peuvent être caractérisée comme un type d'écriture des données, mais qui se précisent ou s'incarnent, tel que je le présente ici, dans cette forme numérique que l'on connait tous assez bien : celle du réseau social.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/DitaKepler.png" data-background-size="contain" -->
-
-
-### Le profil sur le réseau social : la remédiation du journal
+## Une écriture des plateformes : le sujet formaté
+* Le risque de la plateformisation
 
 ===
 
-Sur ces plateformes sociales, les profils fusionnent et redéterminent à la fois les principales acceptions historiques du terme (profil visuel et profil psychologique) pour devenir des acteurs essentiels de la construction identitaire sur le web. Il s'opère ainsi une remédiation d'anciennes formes : journal, autoportrait, etc.
+J'ai parlé plus tôt d'hétéronomie = il s'agit de comprendre comment nos comportement et nos identités peuvent courir le risque de se plier à la forme, au format des plateformes en ligne.
 
-D’abord conçus à des fins purement pratiques, ces profils d’usager sont en effet rapidement devenus des espaces d’expression et d’écriture de soi inattendus, investis par les artistes et les écrivains qui en exploitent les contraintes et les potentialités pour faire œuvre. Dans certains cas, l’investissement de cet espace numérique est tel que le profil d’usager devient même la seule incarnation certaines figures auctoriales, qui n’existent plus qu’à travers la médiation du réseau social — c’est le cas en particulier de nombreux écrivains hypermédiatiques publiant sous pseudonymes, ou de collectifs d’auteur.
+Les outils profilaires sont loin de constituer des espaces d'expression pleinement libres.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/DRE351OXkAAJHxU.jpg" data-background-size="contain" -->
+Sur le plan graphique, les plateformes sont standardisées et souvent polluées par des éléments publicitaires. Contrairement au blogue, où l’auteur a le plein pouvoir sur ses publications, les réseaux sociaux sont soumis à des règles d’utilisation strictes qui, lorsqu’elles sont transgressées, peuvent conduire à l’exclusion temporaire ou définitive du réseau. Ces plateformes profilaires imposent enfin des formats préconstruits rigides, qui favorisent la concision (comme les 280 caractères de Twitter). C'est le mouvement de "Plateformisation" largement dénoncé dans le champ des HN. Ces limites à la fois thématiques, spatiales et temporelles, relèvent à maints égards d’une écriture à contrainte dont se nourrit le détournement poétique des formes profilaires.
 
+De fait, en raison même de ces contraintes très fortes, les profils d’usager sont rapidement devenus des espaces d’expression et d’écriture de soi inattendus, investis par les artistes et les écrivains qui en exploitent les contraintes et les potentialités pour faire œuvre.
 
-### Une identité prescrite : du risque de la plateformisation à l'écriture à contrainte
-
-
-===
-
-Bien évidemment, tous ces profils sont loin de constituer des espaces de création pleinement libres. Sur le plan graphique, les plateformes sont standardisées et souvent polluées par des éléments publicitaires. Contrairement au blogue, où l’auteur a le plein pouvoir sur ses publications, les réseaux sociaux sont soumis à des règles d’utilisation strictes1 qui, lorsqu’elles sont transgressées, peuvent conduire à l’exclusion temporaire ou définitive du réseau. Ces plateformes profilaires imposent enfin des formats préconstruits rigides, qui favorisent la concision (comme les 140 caractères de Twitter). C'est le mouvement de "Plateformisation" largement dénoncé dans le champ des HN. Ces limites à la fois thématiques, spatiales et temporelles, relèvent à maints égards d’une écriture à contrainte dont se nourrit le détournement poétique des formes profilaires.
-
-L’écriture profilaire peut ainsi, de façon très paradoxale, reposer sur un refus de la représentation au profit d’une stratégie performative - qui revendique une identité dynamique et labile, insaisissable.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/SylvieGarcia.png" data-background-size="contain" -->
-
-===
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/mondot2.jpg" data-background-size="contain" -->
-
-
-## Réconcilier ses identités
-
-===
-
-Tout cela étant dit, qu'est-ce qu'on fait ?
+Éviter le technodéterminisme : les règles de certaines plateformes ont ainsi été amenées à changer sous la pression des usagers ! Exemple : FB et les "faux-profils".
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 <!-- .slide: data-background-image="img/mondot2.jpg" data-background-size="contain" -->
@@ -386,9 +316,35 @@ Pour Louise Merzeau :
 >La première protection contre « l’expropriation identitaire » [induite par les écritures numériques] consiste donc à reprendre la main sur la gestion de nos traces — en déposant un nom de domaine, en administrant un site, en agrégeant ses favoris… D’une façon générale, face à l’impossibilité de se soustraire aux systèmes de surveillance, où l’acteur enregistre lui-même les indices de sa présence, qui peut l’aider à préserver l’intégrité de son identité.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/myGoogleSearchHistory.png" data-background-size="contain" -->
+
+
+
+Source : [Albertine Meunier, My Google Search History](https://www.albertinemeunier.net/google_search_history/google_search_history.htm)
+
+<!-- .element: class="source" -->
+
+===
+On en trouvera un bon exemple avec le projet Dada-data d'Albertine Meunier, My Google Search History, dans laquelle l'autrice use de son historique Google comme d'un matériau littéraire, pour remédiatiser son ethos numérique.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/AnneARchetTwitter.png" data-background-size="contain" -->
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/archet19fev2017.png" data-background-size="contain" -->
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/ArchetPoupee.png" data-background-size="contain" -->
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/AvertissementAnneArchet.png" data-background-size="contain" -->
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ## Conclusion
 
-Le profil apparaît comme une forme de production identitaire majeure à l'époque des nouvelles médiations numériques, et témoigne de la fusion qui s’opère entre la personne et l’outil-logiciel, la plateforme numérique, le réseau, ou même ce que l’on voudrait qualifier de « représentation » numérique du sujet. Son influence est majeure, à la fois dans la sphère numérique, mais aussi au-delà. La distinction entre "réel" et "virtuel" n'est en effet plus valide pour penser cette nouvelle forme identitaire qu'est le profil.
+Le profil apparaît comme une forme de production identitaire majeure à l'époque des nouvelles médiations numériques, et témoigne de la fusion qui s’opère entre la personne et l’outil-logiciel, la plateforme numérique, le réseau, ou même ce que l’on voudrait qualifier de « représentation » numérique du sujet. Son influence est forte, à la fois dans la sphère numérique, mais aussi au-delà. La distinction entre "réel" et "virtuel" n'est en effet plus valide pour penser cette nouvelle forme identitaire qu'est le profil. Si le profil est une forme "à risque" (en ce qu'elle nous expose sur le web, et contraint nos comportements en ligne), l'écriture profilaire (qui consiste à jouer des contraintes des plateformes et des algorithmes) est une excellente stratégie de construction identitaire numérique.
 
-C'est en cela que l'on peut parler d'un "vrai"-faux-profil : même les profils qui n'ont pas de référents réels en dehors de la sphère numérique ont un impact sur les sociabilités et ligne et, potentiellement, dans le monde réel.
+<!-- .element: style="font-size:1.7rem; text-align:justify" -->
