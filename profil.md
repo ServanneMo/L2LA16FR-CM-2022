@@ -282,7 +282,6 @@ Pour résumer, lorsque nous écrivons en ligne :
 La réflexion sur l'écriture (numérique) de soi sera donc politique ou ne sera pas : comme le souligne Cécile Portier, tout l'enjeu d'une écriture de soi en ligne consiste à « jouer au jeu de l’arroseur arrosé », de manière à reprendre la main sur l’écriture de nos traces que se sont peu à peu appropriées les systèmes statistiques du web, dans le but de nous convertir en êtres de données.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/AnneARchetTwitter.png" data-background-size="contain" -->
 
 
 ## Une écriture des plateformes : le sujet formaté
