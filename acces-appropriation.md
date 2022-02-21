@@ -192,7 +192,7 @@ visites pas visiteur, mais on estime qu'en 2017, Gallica avait 40 000 visiteurs 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/statsBNF2.png" data-background-size="contain" -->
+<!-- .slide: data-background-image="img/statBNF2.png" data-background-size="contain" -->
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -421,3 +421,5 @@ En littérature c'est pareil: si vous prenez la première édition du coup de D�
 ## Conclusion
 
 En s'appuyant sur une volonté manifeste de sauvegarder et de partager des collections afin de mieux en assurer la diffusion, les grandes entreprises de numérisation ont perpétué les valeurs fondamentales de la patrimonialisation, tout en provoquant, déjà, des changements importants dans la mission et le fonctionnement des institutions qui en ont la charge : là où l'usager a toujours été invité à venir profiter des fonds patrimoniaux -- archives, bibliothèques, musées, etc. --, ce sont ces derniers qui, aujourd'hui, se rendent directement jusqu'à l'usager. Sous une désintermédiation apparente, se cache de fait une réintermédiation dont on peut attendre le meilleur (une revalorisation des médiateurs, des collections, des usagers) comme le pire (émergence de nouveaux monopoles). Le paradigme de l'accès ne peut donc fonctionner seule. Numériser, et après ? Encore faut-il penser la circulation, et l'éditorialisation.
+
+<!-- .element: style="font-size:1.6rem; text-align:justify" -->
