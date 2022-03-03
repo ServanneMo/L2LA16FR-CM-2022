@@ -1,7 +1,8 @@
-
-## La patrimonialisation à l’heure numérique
+<!-- .slide: data-background-image="img/gifItUp.gif" -->
 
 ## [Deuxième époque] Le paradigme de l'éditorialisation
+
+<!-- .element: class="grandtitre" -->
 
 
 ===
@@ -37,14 +38,14 @@ réalisation = Elyse Kallen (Chicago, USA)
 Portrait of Loef Vredericx| Thomas de Keyser | Mauritshuis | Europeana
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/gifOrigine1.png" data-background-size="contain"-->
+<!-- .slide: data-background-image="img/gifOrigine2.png" data-background-size="contain"-->
 
 
 ===
 Europeana
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/giphypandemic.gif" data-background-size="contain"-->
+<!-- .slide: data-background-image="img/concours.png" data-background-size="contain"-->
 
 ===
 
@@ -151,7 +152,7 @@ Projet pédago de 2014 à 2018.
 Faire un mémorial numérique
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/Fbranche1.png" data-background-size="contain" -->
+<!-- .slide: data-background-image="img/Fbranche2.png" data-background-size="contain" -->
 
 
 
