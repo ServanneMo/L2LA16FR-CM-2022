@@ -195,7 +195,19 @@ Une dynamique collective : enfin, l'éditorialisation s'appuie sur un principe d
 
 Évidemment, dimension démocratique très forte et louable : le patrimoine appartient à tout le monde, tout le monde doit se sentir investi de cette mission mémoriale. Quoi de mieux pour assurer la mémoire collective que d'en faire une affaire collective ???
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/benoiteGroultTranscrire.png" data-background-size="contain" -->
+
+
+===
+
 Mais une autre question: tout le monde a-t-il les compétences ? Dans les projets de transcription collaborative, quels gardes-fous pour éviter que les non-spécialistes commettent des erreurs, même involontaires ?
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/hackathon.png" data-background-size="contain" -->
+
+===
 
 Enfin, en ludifiant des pratiques autrefois très pénibles : transcription, indexation etc. ne sommes-nous pas face à du digital labour ?
 
@@ -212,6 +224,16 @@ Enfin, en ludifiant des pratiques autrefois très pénibles : transcription, ind
 ===
 
 On peut désormais comprendre l'éditorialisation comme un acte de patrimonialisation, au sein d'un large processus dont la numérisation ne représente qu'une étape, certes indispensable, mais finalement transitoire.
+
+Cette éditorialisation-patrimonialisation se caractérise ainsi :
+* interactivité
+* liberté et sur-mesure
+* détournement / jeu
+* processus collectif   
+
+Tout est fait pour transformer l'accès au patrimoine en une expérience passionnante, qui permette d'éveiller l'intérêt du public non seulement pour un objet en particulier, mais pour la patrimonialisation en soit = responsabilisation.
+
+Un faire collectif qui est aussi un projet de société : faire comprendre que c'est nos biens communs. La question de l'appropriation est de fait essentielle, car elle reste aujourd'hui fragile !
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -232,7 +254,18 @@ Important : dimension performative de l'éditorialisation.
 - L'éditorialisation vient faire appel à une activité et une responsabilité accrue des acteurs-lecteurs
 - L'éditorialisation implique aussi une série d'outils et de protocoles qui ne sont pas toujours maîtrisables
 
-Là où l'édition trad était finalement très normée, avec des structures d'autorités très fortes, l'édito implique une perte de contrôle qui peut s'avérer problématique pour nos institutions, mais aussi pour nous, lecteurs-internautes. Car cette perte de contrôle n'est pas sans conséquences !
+Là où l'édition trad était finalement très normée, avec des structures d'autorités très fortes, l'édito implique une perte de contrôle  de la part des institutions qui ne sont plus les seules autorités en charge de la patrimonialisation, et qui se voient concurrencées par deux types d'initiatives.
+1. initiatives collectives d'amateurs-éclairés / passionnés
+2. initiatives des grands monopoles
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/ukraine.png" data-background-size="contain" -->
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-video="img/Google.mp4" data-background-size="contain" -->
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 <!-- .slide: data-background-image="img/googlebooks.png" data-background-size="contain" -->
@@ -241,6 +274,7 @@ Là où l'édition trad était finalement très normée, avec des structures d'a
 * L'éditorialisation remet en question l'autorité des institutions traditionnelles
 * Le grand public reprend la main sur la construction de son patrimoine
 * Une construction collective : quelle vision de l'histoire ?  
+* Le risque des monopoles
 
 ===
 
@@ -256,6 +290,7 @@ C'est tout l'enjeu du principe d'éditorialisation: une ouverture des contenus m
 >Les technologies numériques - même une simple base de données - impliquent une standardisation des pratiques (le design d’interface, par exemple, obéit à des codes graphiques et ergonomiques qui se sont naturalisés très rapidement), mais aussi un phénomène d’« industrialisation ».
 
 >Autant d’éléments qui ont pour conséquence d’ôter aux institutions le contrôle de la gestion des contenus - avec le risque de les voir tomber aux mains d’entreprises peu regardantes, ou du moins de rendre plus flous les contours de la patrimonialisation.*
+
 
 
 
