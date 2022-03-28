@@ -570,8 +570,6 @@ Ce qu'il faut comprendre avec ce concept d'économie de l'attention, c'est un re
 ===
 Yves Citton
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/pokemonchasse.jpg" -->
-<!-- .slide: class="hover"-->
 
 ### L'économie de l'attention : une nouvelle mesure de l'audience
 * Du "temps de cerveau disponible" au temps de contribution
@@ -626,13 +624,13 @@ Ce jeu fonctionnant obligatoirement avec internet n'est plus jouable.
 ===
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/inmemoriam.png" data-background-size="contain"-->
-<!-- .slide: class="hover"-->
 
 >Tout cela a donné In memoriam. Les joueurs achetaient un CD-rom, puis devaient se connecter à Internet pour chercher des indices et contribuer à l'enquête de la police. Les internautes se retrouvaient sur des forums pour résoudre les énigmes du jeu. L'un des moments les plus trépidants survenait lorsque le joueur recevait en pleine nuit un message du tueur en série sur son téléphone portable. Réalité  ? Fiction  ?
 
 <!-- .element: style="font-size:1.7rem; text-align:justify" -->
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/inmemoriam.png" data-background-size="contain"-->
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -717,6 +715,7 @@ Ce jeu fonctionnant obligatoirement avec internet n'est plus jouable.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
 ### Exemple : le marketing sensoriel de GOT
 
 ===
@@ -724,6 +723,13 @@ Ce jeu fonctionnant obligatoirement avec internet n'est plus jouable.
 Le marketing sensoriel est une manière d’engager, de solliciter les sens des consommateurs afin d’influencer leurs perceptions, jugements et comportements : audition (diffusion de musique d’ambiance, signature sonore sur mesure), vue (design de l’espace physique, affichage dynamique, architecture de l’espace, couleur), goût, toucher et olfaction (diffusion de senteurs d’ambiance, signature olfactive…).
 
 Dans les points de vente « classiques », l’objectif est de proposer aux consommateurs une ambiance multisensorielle, de renforcer leurs identités de marques, d’accroître leur avantage concurrentiel, d’améliorer leur relation avec la clientèle (fidélisation, satisfaction…) et d’augmenter leurs performances commerciales.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<!-- .slide: data-background-image="img/GOTbox.png" data-background-size="contain"-->
+
+
+===
 
 >Pour la promotion de Games of Thrones, la chaîne HBO s’est
 adressée à Campire afin de créer un ARG autour de l’univers de la
@@ -754,8 +760,6 @@ Le transmédia (à ne par confondre avec nos adaptations traditionnelles, le *cr
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="img/inmemoriam.png" data-background-size="contain"-->
-<!-- .slide: class="hover"-->
 
 >Les jeunes d'aujourd'hui sont nés avec le jeu vidéo. Ils passent leur temps à jouer ou à nourrir leur page Facebook. Pour eux, la télé, c'est le média de leurs grands-parents. La télévision se regarde d'une autre manière, sur Internet. Or sur Internet, on est actif  : on commente, on réagit. Demain, regarder une série télé, ce sera dialoguer avec un personnage et, pourquoi pas  ?, devenir l'un des héros de la série. Dans une dizaine d'années, toutes les séries télé seront transmédias, certaines fictions aussi. Elles auront intégré des principes de participation et d'interaction. Mais cela implique de mettre en œuvre de nouvelles écritures.
 
