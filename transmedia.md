@@ -705,8 +705,6 @@ Ce jeu fonctionnant obligatoirement avec internet n'est plus jouable.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-
 ## La communication culturelle à l'ère du transmédia
 * Des campagnes publicitaires et du marketing transmedia
 * Faire émerger l'univers transmédia dans le "monde réel"
